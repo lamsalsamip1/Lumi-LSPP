@@ -1,4 +1,4 @@
-from langchain_community.document_loaders import DirectoryLoader
+from langchain_community.document_loaders import DirectoryLoader,PyPDFLoader,UnstructuredMarkdownLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_community.vectorstores import Chroma
@@ -6,10 +6,15 @@ from langchain_huggingface import HuggingFaceEmbeddings
 import torch
 import os
 import shutil
+from pathlib import Path
+
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/courses/"
 
+# Initialize lists to hold documents
+pdf_documents = []
+md_documents = []
 
 def main():
     generate_data_store()
@@ -24,33 +29,35 @@ def generate_data_store():
     save_to_chroma(chunks)
 
 
-# def load_documents():
-#     loader = DirectoryLoader(DATA_PATH, glob="*.md")
-#     documents = loader.load()
-#     return documents
 def load_documents():
-    documents = []
-    for filename in os.listdir(DATA_PATH):
-        if filename.endswith(".md"):  # Check if the file is a Markdown file
-            file_path = os.path.join(DATA_PATH, filename)
-            with open(file_path, 'r', encoding='utf-8') as file:
-                content = file.read()
-                documents.append(Document(page_content=content, metadata={"filename": filename}))
-    return documents
+    data_folder = Path(DATA_PATH)
+    for file_path in data_folder.iterdir():
+        if file_path.suffix == '.pdf':
+            loader = PyPDFLoader(str(file_path))
+            pdf_documents.extend(loader.load())
+        elif file_path.suffix == '.md':
+            loader = UnstructuredMarkdownLoader(str(file_path))
+            md_documents.extend(loader.load())
+        # elif file_path.suffix == '.html':
+
+    # Combine documents
+    all_documents = pdf_documents + md_documents
+    return all_documents
+
 
 def split_text(documents: list[Document]):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=300,
-        chunk_overlap=100,
+        chunk_size=1000,
+        chunk_overlap=300,
         length_function=len,
         add_start_index=True,
     )
     chunks = text_splitter.split_documents(documents)
     print(f"Split {len(documents)} documents into {len(chunks)} chunks.")
 
-    document = chunks[10]
-    print(document.page_content)
-    print(document.metadata)
+    # document = chunks[10]
+    # print(document.page_content)
+    # print(document.metadata)
 
     return chunks
 
