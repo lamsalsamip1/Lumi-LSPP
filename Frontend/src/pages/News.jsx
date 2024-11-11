@@ -1,14 +1,11 @@
-import Navbar from "./components/Navbar"
 
 const News = () => {
     return (
-        <>
-            <Navbar />
-
-            <div className="mt-20 ml-8 mr-8 mb-8 h-screen p-4">
+        <div className="h-screen overflow-y-auto">
+            <div className="mt-20 mx-auto px-8 h-screen py-4">
                 news section
             </div>
-        </>
+        </div>
     )
 }
 

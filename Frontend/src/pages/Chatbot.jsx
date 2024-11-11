@@ -1,13 +1,16 @@
-import Navbar from "./components/Navbar"
+import Chat from "./components/Chat"
+import Send from "./components/Send"
 
 const Chatbot = () => {
   return (
-    <>
-    <Navbar />
-    <div className="mt-20  ml-8 mr-8 mb-8  h-screen p-4">
-      chatbot
+    <div className=" mt-20 mx-auto w-full px-8 pt-4 pb-4 h-screen flex flex-col items-center">
+      <div className="flex-1 overflow-y-auto mb-32 ">
+        <Chat />
+      </div>
+      <div  className=" fixed bottom-0 left-0 right-0 ">
+        <Send />
+      </div>
     </div>
-    </>
   )
 }
 
