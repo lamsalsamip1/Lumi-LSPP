@@ -5,3 +5,4 @@ langchain_ollama==0.2.0
 torch==2.0.0+cu117
 torch==2.5.1
 chromadb==0.5.17
+Flask==3.0.3
