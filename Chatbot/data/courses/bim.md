@@ -1,7 +1,6 @@
 Information on Bachelor in Information Management (BIM) course
 
-The Bachelor of Information Management (BIM) program is a four-year (eight-semester) program of Tribhuvan University offering integrated IT and Management Courses. Currently, 45 Colleges offer a BIM program affiliated with Tribhuvan University in Nepal. This course is envisioned to enable students to develop skills in
-information technology, and then apply the theories and concepts of a broad, integrated curriculum covering computing, informatics, business fundamentals, and critical and analytical decision-making. It is designed by the Faculty of Management, TU.
+The Bachelor of Information Management (BIM) program is a four-year (eight-semester) program of Tribhuvan University offering integrated IT and Management Courses. Currently, 45 Colleges offer a BIM program affiliated with Tribhuvan University in Nepal. This course is envisioned to enable students to develop skills in information technology, and then apply the theories and concepts of a broad, integrated curriculum covering computing, informatics, business fundamentals, and critical and analytical decision-making. It is designed by the Faculty of Management, TU.
 
 To study BIM at Tribhuvan University, students must pass the CMAT exam, and to get scholarships, you have to secure competitive marks.
 
@@ -20,3 +19,25 @@ Colleges that offer BIM course:
 Job Prospects:
 The BIM graduates have a prosperous career opportunity at different government, non-government, private and public organizations, like software companies, telecommunications, computer networking companies etc. especially as a:
 Project Manager, Software Developer, UI/UX Designer, Data Analyst, etc.
+
+Admission Criteria in BIM 
+1. Successfully completed twelve-year schooling or its equivalent from any university, board or institution recognized by Tribhuvan University.
+2. Minimum D+ grade in each subject of grade 11 and 12 with CGPA 1.80 or more / Secured at least second division in the 10+2, PCL, or equivalent program 
+3. Complied with all the application procedures.
+
+Scholarship Criteria
+1. Two students per section will get a 50% scholarship from the total fee collected by the college.
+2. Students from Nepalese public secondary schools who have passed the +2 examinations.
+3. Students who have completed +2 exams at a Nepalses public high school.
+
+
+Curricular Structure of BCA:
+Semester I: Foundation of Information Technology, C Programming, English I, Foundation of Business Management, Basic Mathematics
+Semester II: Digital Logic, Oject Oriented Programming witH Java, Discrete Structure, Business Communications, Organizational Behavior & Human Resource Management
+Semester III: Microprocessor and Computer Architecture, Web Technology I , Data Structure and Algorithms, Financial Accounting, Business Statistics
+Semester IV:Web Technology II, Database Management System, Business Data Communication and Networking, Operating System, Economics for Business, Cost and Management Accounting
+Semester V: Software Design and Development, Programming with Python, Information Security, Artificial Intelligence, Artificial Intelligence
+Semester VI: Business Information Systems, IT Ethics and Cybersecurity, Project, Fundamentals of Corporate Finance, Business Environment, 
+Semester VII: E-Commerce and Internet Marketing, Elective I, Sociology for Business Management, Operations Management, Strategic Management
+Semester VIII: IT Entrepreneurship and Manage, ment, Business Intelligence, Digital Economy, 	Internship, Elective II
+For detailed syllabus, go to https://edusanjal.com/course/bachelor-of-information-management-bim-tribhuvan-university/
