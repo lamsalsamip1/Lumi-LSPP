@@ -2,6 +2,7 @@ Information on Bachelor in Information Management (BIM) course by Tribhuvan Univ
 
 The Bachelor of Information Management (BIM) program is a four-year (eight-semester) program of Tribhuvan University offering integrated IT and Management Courses. Currently, 45 Colleges offer a BIM program affiliated with Tribhuvan University in Nepal. This course is envisioned to enable students to develop skills in information technology, and then apply the theories and concepts of a broad, integrated curriculum covering computing, informatics, business fundamentals, and critical and analytical decision-making. It is designed by the Faculty of Management, TU.The BIM program is interdisciplinary in nature and courses are borrowed from many different disciplines like Management, Economics, Computer Science, Psychology and Sociology.
 
+
 Eligibility for Admission in Bachelor in Information Management (BIM)
 Successfully completed twelve-year schooling or its equivalent from any university, board or institution recognized by Tribhuvan University.
 Minimum D+ grade in each subject of grade 11 and 12 with CGPA 1.80 or more / Secured at least second division in the 10+2, PCL, or equivalent program
@@ -68,7 +69,7 @@ Job Prospects:
 The BIM graduates have a prosperous career opportunity at different government, non-government, private and public organizations, like software companies, telecommunications, computer networking companies etc. especially as a:
 Project Manager, Software Developer, UI/UX Designer, Data Analyst, etc.
 
-Curricular Structure:
+Curricular Structure of BIM:
 The BIM program requires the students to study a total of 126 credit hours. The curricular structure of the program comprises the following four separate course components.
 
 1. Management Courses 30 Cr
@@ -78,5 +79,17 @@ The BIM program requires the students to study a total of 126 credit hours. The 
 5. Project 03 Cr
 6. Internship 03 Cr
    Total = 126 Cr
+   
+It comprises of the following subjects:
+
+Semester I: Foundation of Information Technology, C Programming, English I, Foundation of Business Management, Basic Mathematics
+Semester II: Digital Logic, Oject Oriented Programming witH Java, Discrete Structure, Business Communications, Organizational Behavior & Human Resource Management
+Semester III: Microprocessor and Computer Architecture, Web Technology I , Data Structure and Algorithms, Financial Accounting, Business Statistics
+Semester IV:Web Technology II, Database Management System, Business Data Communication and Networking, Operating System, Economics for Business, Cost and Management Accounting
+Semester V: Software Design and Development, Programming with Python, Information Security, Artificial Intelligence, Artificial Intelligence
+Semester VI: Business Information Systems, IT Ethics and Cybersecurity, Project, Fundamentals of Corporate Finance, Business Environment, 
+Semester VII: E-Commerce and Internet Marketing, Elective I, Sociology for Business Management, Operations Management, Strategic Management
+Semester VIII: IT Entrepreneurship and Manage, ment, Business Intelligence, Digital Economy, 	Internship, Elective II
 
 For detailed syllabus, go to the link:https://www.fomecd.edu.np/cms/syllabuses/BIM%20Syllabus%202021%20Admission%20Onwards.pdf
+
