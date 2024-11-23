@@ -35,5 +35,5 @@ Semester IV: Theory of Computation, COmputer Networks,Operating Systems, Databas
 Semester V: Design and Analysis of Algorithms, System Analysis and Design, Cryptography, Simulation and Modeling, Web Technology, Elective I
 Semester VI: Software Engineering, Compiler Design and Construction, E-Governance, NET Centric Computing, Technical Writing, Elective II
 Semester VII: Advanced Java Programming, Data Warehousing and Data Mining, Principles of Management, Project Work, Elective III
-Semetser VII: Advanced Database, Internship, Elective IV, Elective V
+Semestser VII: Advanced Database, Internship, Elective IV, Elective V
 For detailed syllabus, go to https://cdcsit.edu.np/wp-content/uploads/2023/03/B.Sc_.-CSIT-Syllabus-Grading-System-2079.pdf
