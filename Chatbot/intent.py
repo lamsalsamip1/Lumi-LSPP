@@ -1,0 +1,10 @@
+import random
+
+def is_gratitude_intent(input_text):
+    gratitude_keywords = ["thank you", "thanks", "appreciate it", "great job", "good job", "well done", "awesome", "amazing", "fantastic", "excellent", "superb", "outstanding", "incredible", "wonderful", "brilliant", "super", "terrific", "fabulous", "marvelous", "splendid", "phenomenal", "exceptional", "magnificent", "stupendous", "majestic", "grand", "mind-blowing", "mind-boggling", "mind-bending", "mind-bendingly", "mind-blowingly", "mind-bogglingly", "mind-bendingly", "mind-blowing", "mind-boggling", "mind-bending", "mind-bendingly", "mind-blowingly", "mind-bogglingly", "mind-bendingly", "mind-blowing", "mind-boggling", "mind-bending", "mind-bendingly", "mind-blowingly", "mind-bogglingly", "mind-bendingly", "mind-blowing", "mind-boggling", "mind-bending", "mind-bendingly", "mind-blowingly", "mind-bogglingly", "mind-bendingly", "mind-blowing", "mind-boggling", "mind-bending", "mind-bendingly", "mind-blowingly", "mind-bogglingly", "mind-bendingly", "mind-blowing", "mind-boggling", "mind-bending", "mind-bendingly", "mind-blowingly", "mind-bogglingly", "mind-bendingly", "mind-blowing", "mind-boggling", "mind-bending", "mind-bendingly", "mind-blowingly", "mind-bogglingly", "mind-bendingly", "mind-blowing", "mind-boggling", "mind-bending", "mind-bendingly", "mind-blowingly", "mind-bogglingly", "mind-bendingly", "mind-blowing", "mind-boggling", "mind-bending", "mind-bendingly", "mind-blowingly", "mind-bogglingly", "mind-bendingly", "mind-blowing", "mind-boggling", "mind-bending", "mind-bendingly"]
+    return any(keyword in input_text.lower() for keyword in gratitude_keywords)
+
+
+def is_greeting_intent(input_text):
+    greeting_keywords = ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "greetings", "howdy", "what's up"]
+    return any(keyword in input_text.lower() for keyword in greeting_keywords)  

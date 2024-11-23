@@ -4,26 +4,48 @@ from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_ollama.llms import OllamaLLM
 from langchain.prompts import ChatPromptTemplate
+import openai
+import os
+from langchain_openai import OpenAIEmbeddings
+from intent import is_gratitude_intent, is_greeting_intent
+
 
 CHROMA_PATH = "chroma"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 max_vector_history=5
+non_rag_prompt = """
+You are Lumi, a helpful assistant. Your purpose is to assist the user with queries related to bachelor-level studies in science and engineering in Nepal. Depending on the user's input, respond appropriately based on the detected intent.
+
+- If the user greets you with "Hi," "Hello," or similar greetings, respond by acknowledging the greeting and let them know that you're available to assist with queries related to bachelor-level studies in Nepal, specifically in science and engineering.
+- If the user expresses gratitude (e.g., "Thank you," "Thanks," "I appreciate it"), respond politely and naturally with gratitude.
+- In all cases, maintain a helpful, polite, and professional tone.
+
+User: {user_input}
+Assistant:
+
+
+"""
 
 def load_vector_store():
-    embedding_function = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    embedding_function = OpenAIEmbeddings(model="text-embedding-3-small")
     return Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
 
 def query_vector_store(db, query_text):
     results = db.similarity_search_with_relevance_scores(query_text, k=3)
-    if len(results) == 0:
+    if len(results) == 0 or results[0][1] < 0.7:
+
         print(f"Unable to find matching results.")
         
     context_text = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
+    
+    print(f"**********Context:\n{context_text}*****************\n")
     return context_text
+
 
 def format_prompt(conversation_history, user_question,context_text, max_history=5):
     # Define the RAG prompt template with placeholders
     prompt_template = """
-    You are a knowledgeable assistant tasked with answering questions based on specific documents retrieved from a database. Refer to the user’s question and previous conversation history to provide an accurate, detailed response. Use only the retrieved documents to answer. Talk to the user as if you are sitting in the information desk.
+    You are Lumi, a knowledgeable assistant dedicated to answering questions related to courses and universities in Nepal. Use the user’s question and relevant details from previous conversation history to provide an accurate, concise, and natural response. Avoid explicitly referencing previous conversations unless absolutely necessary for clarity. Answer only based on facts present in the database.
 
     ---
 
@@ -38,9 +60,8 @@ def format_prompt(conversation_history, user_question,context_text, max_history=
 
     ---
 
-    **Answer:**
-    Based on the retrieved documents and the context from the conversation history, provide a clear and relevant response. Use information from the retrieved documents only, and if possible, incorporate previous answers to maintain continuity.
     """
+
 
     # Limit the conversation history to the last `max_history` entries
     trimmed_history = conversation_history[-max_history:]
@@ -67,14 +88,19 @@ def main():
     
     while True:
         query_text = input("User: ")
+        if(is_gratitude_intent(query_text) or is_greeting_intent(query_text)):
+            response = model.invoke(prompt)
+            print(f"\nLLaMA: {response}\n\n")
+            continue
+
         # Include last few user queries (up to max_history) for context in vector search
-        context_history = ' '.join([entry['user'] for entry in conversation_history[-max_vector_history:]])
+        # context_history = ' '.join([entry['user'] for entry in conversation_history[-max_vector_history:]])
 
 
         # Combine the current query with relevant user history for vector search
-        full_query = context_history + ' ' + query_text if context_history else query_text
+        # full_query = context_history + ' ' + query_text if context_history else query_text
 
-        context_text = query_vector_store(db, full_query)  # Pass the concatenated user context to the vector DB
+        context_text = query_vector_store(db, query_text)  # Pass the concatenated user context to the vector DB
 
         #APPEND CONVO HISTORY
         if not conversation_history:
@@ -84,7 +110,7 @@ def main():
 
         #Get formatted prompt
         prompt = format_prompt(conversation_history, query_text, context_text)
-        print(f"Prompt: {prompt}\n********************************************************\n")
+        # print(f"Prompt: {prompt}\n********************************************************\n")
         response = model.invoke(prompt)
         print(f"\nLLaMA: {response}\n\n")
 
