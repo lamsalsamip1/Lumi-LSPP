@@ -32,7 +32,7 @@ def load_vector_store():
 
 def query_vector_store(db, query_text):
     results = db.similarity_search_with_relevance_scores(query_text, k=3)
-    if len(results) == 0 or results[0][1] < 0.7:
+    if len(results) == 0 or results[0][1] < 0.5:
 
         print(f"Unable to find matching results.")
         
@@ -88,10 +88,10 @@ def main():
     
     while True:
         query_text = input("User: ")
-        if(is_gratitude_intent(query_text) or is_greeting_intent(query_text)):
-            response = model.invoke(prompt)
-            print(f"\nLLaMA: {response}\n\n")
-            continue
+        # if(is_gratitude_intent(query_text) or is_greeting_intent(query_text)):
+        #     response = model.invoke(prompt)
+        #     print(f"\nLLaMA: {response}\n\n")
+        #     continue
 
         # Include last few user queries (up to max_history) for context in vector search
         # context_history = ' '.join([entry['user'] for entry in conversation_history[-max_vector_history:]])
