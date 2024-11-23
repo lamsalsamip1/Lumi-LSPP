@@ -7,7 +7,7 @@ curriculum is designed by closely following the courses practiced in accredited 
 
 Colleges offering BSc.CSIT course:
 Private Colleges:St.Xavier's College, Deerwalk Institute of Technology, Prime College, Kathford College, Nepalaya college, and more.
-Public colleges: Amrit Science Campus, Patan Multiple Campus, Bhaktapur Multiple Campus, Padmaksanya Multiple Campus,etc.
+Public/Government colleges: Amrit Science Campus, Patan Multiple Campus, Bhaktapur Multiple Campus, Padmaksanya Multiple Campus,etc.
 For full list of colleges offering BSc.CSIT course, visit https://www.collegesnepal.com/bsc-csit/
 
 Job Prospects
