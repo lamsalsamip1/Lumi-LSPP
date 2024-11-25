@@ -9,7 +9,6 @@ import os
 from langchain_openai import OpenAIEmbeddings
 from intent import is_gratitude_intent, is_greeting_intent
 
-
 CHROMA_PATH = "chroma"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 max_vector_history=5
@@ -141,7 +140,8 @@ def get_llama_response(query_text,conversation_history):
     return response
 
 
-
+db = load_vector_store()
+print(db.get())
 
     
 if __name__ == "__main__":
