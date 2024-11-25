@@ -1,8 +1,7 @@
-from langchain_community.document_loaders import DirectoryLoader,PyPDFLoader,UnstructuredMarkdownLoader
+from langchain_community.document_loaders import PyPDFLoader,UnstructuredMarkdownLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_community.vectorstores import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
 import openai
 import os
 import shutil
