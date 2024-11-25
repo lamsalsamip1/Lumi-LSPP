@@ -8,7 +8,6 @@ from intent import is_gratitude_intent, is_greeting_intent
 from fastcoref import spacy_component
 import spacy
 
-
 CHROMA_PATH = "chroma"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -146,7 +145,8 @@ def get_llama_response(query_text,conversation_history):
     return response
 
 
-
+db = load_vector_store()
+print(db.get())
 
     
 if __name__ == "__main__":
