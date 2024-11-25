@@ -1,17 +1,16 @@
-from langchain_community.document_loaders import DirectoryLoader,PyPDFLoader,UnstructuredMarkdownLoader
+from langchain_community.document_loaders import PyPDFLoader,UnstructuredMarkdownLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_community.vectorstores import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
-import torch
+import openai
 import os
 import shutil
 from pathlib import Path
-
+from langchain_openai import OpenAIEmbeddings
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/courses/"
-
+openai.api_key = os.getenv("OPENAI_API_KEY")
 # Initialize lists to hold documents
 pdf_documents = []
 md_documents = []
@@ -47,7 +46,7 @@ def load_documents():
 
 def split_text(documents: list[Document]):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
+        chunk_size=1200,
         chunk_overlap=300,
         length_function=len,
         add_start_index=True,
@@ -67,11 +66,11 @@ def save_to_chroma(chunks: list[Document]):
     if os.path.exists(CHROMA_PATH):
         shutil.rmtree(CHROMA_PATH)
 
-    emb_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    # emb_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
     # Create a new DB from the documents.
     db = Chroma.from_documents(
-        chunks, emb_model, persist_directory=CHROMA_PATH
+        chunks, OpenAIEmbeddings(model="text-embedding-3-small"), persist_directory=CHROMA_PATH
     )
     db.persist()
     print(f"Saved {len(chunks)} chunks to {CHROMA_PATH}.")

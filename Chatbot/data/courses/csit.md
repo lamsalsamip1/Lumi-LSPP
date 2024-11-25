@@ -7,7 +7,7 @@ curriculum is designed by closely following the courses practiced in accredited 
 
 Colleges offering BSc.CSIT course:
 Private Colleges:St.Xavier's College, Deerwalk Institute of Technology, Prime College, Kathford College, Nepalaya college, and more.
-Public colleges: Amrit Science Campus, Patan Multiple Campus, Bhaktapur Multiple Campus, Padmaksanya Multiple Campus,etc.
+Public/Government colleges: Amrit Science Campus, Patan Multiple Campus, Bhaktapur Multiple Campus, Padmaksanya Multiple Campus,etc.
 For full list of colleges offering BSc.CSIT course, visit https://www.collegesnepal.com/bsc-csit/
 
 Job Prospects
@@ -35,5 +35,5 @@ Semester IV: Theory of Computation, COmputer Networks,Operating Systems, Databas
 Semester V: Design and Analysis of Algorithms, System Analysis and Design, Cryptography, Simulation and Modeling, Web Technology, Elective I
 Semester VI: Software Engineering, Compiler Design and Construction, E-Governance, NET Centric Computing, Technical Writing, Elective II
 Semester VII: Advanced Java Programming, Data Warehousing and Data Mining, Principles of Management, Project Work, Elective III
-Semetser VII: Advanced Database, Internship, Elective IV, Elective V
+Semestser VII: Advanced Database, Internship, Elective IV, Elective V
 For detailed syllabus, go to https://cdcsit.edu.np/wp-content/uploads/2023/03/B.Sc_.-CSIT-Syllabus-Grading-System-2079.pdf
