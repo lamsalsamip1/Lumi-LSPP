@@ -80,10 +80,17 @@ while True:
     # Assuming get_metadata_content is a function that takes the prompt and returns a response
     context_text = get_metadata_content(user_question)
 
+    #Handle if metadata matching fails
     if not context_text:
-        context_text = last_context if last_context else "I don't have any relevant context for this."
+        # Use last context if available
+        if last_context is not None:
+            context_text = last_context
+        #Make a vector search if no last context 
+        else:
+            context_text = query_vector_store(db, user_question)
         print(context_text)
     
+    # Make a vector search if only university name is extracted
     if context_text=="RAG":
         print("performing rag to find out..")
         context_text = query_vector_store(db, user_question)

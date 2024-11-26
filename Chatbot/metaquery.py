@@ -21,12 +21,12 @@ METADATA_MAP = {
 
     "bce-tu.md": {"courses": ["BCE","Bachelor in Civil Engineering","Civil Engineering","BE Civil","Civil Eng","Civil"], "university": ["Tribhuvan University", "TU"]},
 
-    "ce-ku.md": {"courses": ["BE Civil","Bachelor in Civil Engineering","Civil Engineering","Civil Eng","Civil"], "university": ["Kathmandu University", "KU"]},
+    "be-civil-ku.md": {"courses": ["BE Civil","Bachelor in Civil Engineering","Civil Engineering","Civil Eng","Civil"], "university": ["Kathmandu University", "KU"]},
 
     # "be-electrical.md": {"courses": ["BE Electrical","Bachelor in Electrical Engineering","Electrical Engineering","Electrical Eng"], "university": ["Kathmandu University", "KU"]},
     "be-aero-tu.md": {"courses": ["BE Aerospace","Bachelor in Aerospace Engineering","Aerospace Engineering","Aerospace Eng","Aerospace"], "university": ["Tribhuvan University", "TU"]},
 
-    "be-agriculture-tu.md": {"courses": ["BE Agriculture","Bachelor in Agriculture Engineering","Agriculture Engineering","Agriculture Eng"], "university": ["Tribhuvan University", "TU"]},
+    "be-agriculture-tu.md": {"courses": ["BE Agriculture","Bachelor in Agriculture Engineering","Agriculture Engineering","Agriculture Eng","Agriculture"], "university": ["Tribhuvan University", "TU"]},
 
     "be-automobile-tu.md": {"courses": ["BE Automobile","Bachelor in Automobile Engineering","Automobile Engineering","Automobile Eng"], "university": ["Tribhuvan University", "TU"]},
     
