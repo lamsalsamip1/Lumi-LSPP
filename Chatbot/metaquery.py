@@ -1,19 +1,15 @@
-from langchain_community.document_loaders import UnstructuredMarkdownLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.schema import Document
+import re
 from langchain_community.vectorstores import Chroma
 import openai
-import os
-import shutil
-from pathlib import Path
 from langchain_openai import OpenAIEmbeddings
+import os
+from fuzzywuzzy import fuzz
+from fuzzywuzzy import process
 
 CHROMA_PATH = "chroma"
-DATA_PATH = "data/courses/"
-openai.api_key = os.getenv("OPENAI_API_KEY")
-# Initialize lists to hold documents
 
-md_documents = []
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 # Metadata mapping for demonstration (assign dynamically based on your logic)
 METADATA_MAP = {
@@ -64,81 +60,76 @@ METADATA_MAP = {
 
     "be-chemical-tu.md": {"courses": ["BE Chemical","Bachelor in Chemical Engineering","Chemical Engineering","Chemical Eng","Bachelor of Engineering in Chemical Engineering"], "university": ["Tribhuvan University", "TU"]},
 
-
-
-
-
 }
 
+# Create lists of universities and courses to match against
+universities = []
+courses = []
 
-def main():
-    print(len(METADATA_MAP))
-    generate_data_store()
+# Extract universities and courses from METADATA_MAP
+for entry in METADATA_MAP.values():
+    universities.extend(entry["university"])
+    courses.extend(entry["courses"])
+
+# Create a pattern to match whole words from the list (for initial filtering)
+university_pattern = r"\b(" + "|".join([re.escape(u) for u in universities]) + r")\b"
+course_pattern = r"\b(" + "|".join([re.escape(c) for c in courses]) + r")\b"
+
+# Function to get the best match using fuzzywuzzy
+def get_best_match(input_text, options):
+    # Use fuzzy matching to find the best match from the list of options
+    match, score = process.extractOne(input_text, options, scorer=fuzz.token_sort_ratio)
+    return match if score > 80 else None  # Adjust threshold as needed
+
+# Function to extract universities and courses with fuzzy matching
+def extract_info_from_prompt(prompt):
+    # Find all possible universities and courses using regex
+    universities_found = re.findall(university_pattern, prompt,re.IGNORECASE)
+    courses_found = re.findall(course_pattern, prompt,re.IGNORECASE)
+
+    # Apply fuzzy matching to the university found in the prompt
+    fuzzy_universities = [get_best_match(u, universities) for u in universities_found]
+    fuzzy_courses = [get_best_match(c, courses) for c in courses_found]
+
+    # Filter out None values for matches that were too ambiguous
+    fuzzy_universities = list(filter(None, fuzzy_universities))
+    fuzzy_courses = list(filter(None, fuzzy_courses))
+
+    return fuzzy_universities, fuzzy_courses
+
+# Function to query the metadata map based on extracted course and university
+def query_metadata(prompt):
+    # Extract course and university from the prompt
+    universities_found, courses_found = extract_info_from_prompt(prompt)
+
+    # Inform the user if no course or university is found
+    if not universities_found:
+        print("No university found in the prompt.")
+    if not courses_found:
+        print("No course found in the prompt.")
+
+    # If no course or university was found, return empty or default message
+    if not universities_found and not courses_found:
+        return "Please provide course and university details in the prompt."
+
+    # Filter METADATA_MAP based on extracted course and university
+    filtered_results = []
+    for key, entry in METADATA_MAP.items():
+        # Check if the extracted courses and universities match with the metadata
+        course_match = any(course in courses_found for course in entry["courses"]) if courses_found else True
+        university_match = any(university in universities_found for university in entry["university"]) if universities_found else True
+        
+        if course_match and university_match:
+            filtered_results.append({key: entry})
     
-def flatten_metadata(metadata):
-    """
-    Converts lists in metadata to comma-separated strings.
-    """
-    return {key: ", ".join(value) if isinstance(value, list) else value for key, value in metadata.items()}
+    # Return the results or a message if no matching entries are found
+    if filtered_results:
+        return filtered_results
+    else:
+        return "No matching courses or universities found in the metadata."
 
-def generate_data_store():
-    print("Start")
-    documents = load_documents()
-    print(f"Loaded {len(documents)} documents")
-    chunks = split_text(documents)
-    print("Chunks generated")
-    save_to_chroma(chunks)
+# Example usage
+prompt = "Can you tell me about the Computer Engineering course ?"
 
-
-def load_documents():
-    data_folder = Path(DATA_PATH)
-    for file_path in data_folder.iterdir():
-        if file_path.suffix == '.md':
-            loader = UnstructuredMarkdownLoader(str(file_path))
-            # md_documents.extend(loader.load())
-            mds=loader.load()
-            combined_content = "\n\n".join(doc.page_content for doc in mds)
-            metadata = METADATA_MAP.get(file_path.name, {})  # Get metadata dynamically
-            doc = Document(page_content=combined_content, metadata=metadata)  # Create one Document
-            md_documents.append(doc) 
-
-    # Combine documents
-    all_documents = md_documents
-    return all_documents
-
-
-def split_text(documents: list[Document]):
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1200,
-        chunk_overlap=300,
-        length_function=len,
-        add_start_index=True,
-    )
-    chunks = text_splitter.split_documents(documents)
-    print(f"Split {len(documents)} documents into {len(chunks)} chunks.")
-
-    # document = chunks[10]
-    # print(document.page_content)
-    # print(document.metadata)
-
-    return chunks
-
-
-def save_to_chroma(chunks: list[Document]):
-    # Clear out the database first.
-    if os.path.exists(CHROMA_PATH):
-        shutil.rmtree(CHROMA_PATH)
-
-     # Flatten metadata for each document
-    for chunk in chunks:
-        chunk.metadata = flatten_metadata(chunk.metadata)
-
-    # Create a new DB from the documents.
-    db = Chroma.from_documents(
-        chunks, OpenAIEmbeddings(model="text-embedding-3-small"), persist_directory=CHROMA_PATH
-    )
-    db.persist()
-    print(f"Saved {len(chunks)} chunks to {CHROMA_PATH}.")
-
-if __name__ == "__main__":
-    main()
+result = query_metadata(prompt)
+print(result)
