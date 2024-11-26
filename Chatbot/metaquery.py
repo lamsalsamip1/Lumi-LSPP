@@ -1,14 +1,8 @@
 import re
-from langchain_community.vectorstores import Chroma
-import openai
-from langchain_openai import OpenAIEmbeddings
 import os
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
-CHROMA_PATH = "chroma"
-
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 # Metadata mapping for demonstration (assign dynamically based on your logic)
@@ -62,6 +56,7 @@ METADATA_MAP = {
 
 }
 
+last_course=None
 # Create lists of universities and courses to match against
 universities = []
 courses = []
@@ -110,7 +105,11 @@ def query_metadata(prompt):
 
     # If no course or university was found, return empty or default message
     if not universities_found and not courses_found:
-        return "Please provide course and university details in the prompt."
+        print("Please provide course and university details in the prompt.")
+        return None
+
+    if universities_found and not courses_found:
+        return "RAG"
 
     # Filter METADATA_MAP based on extracted course and university
     filtered_results = []
@@ -124,12 +123,47 @@ def query_metadata(prompt):
     
     # Return the results or a message if no matching entries are found
     if filtered_results:
+        print(filtered_results)
         return filtered_results
     else:
         return "No matching courses or universities found in the metadata."
 
 # Example usage
-prompt = "Can you tell me about the Computer Engineering course ?"
+# prompt = "Can you tell me about the Computer Engineering course offered by KU ?"
 
-result = query_metadata(prompt)
-print(result)
+# result = query_metadata(prompt)
+# print(result)
+
+
+# Function to read the content of the markdown files
+def read_file_content(filenames):
+    combined_content = ""
+    
+    for filename in filenames:
+        file_path = os.path.join("data/courses", filename)  # Assuming files are stored in CHROMA_PATH
+        if os.path.exists(file_path):
+            with open(file_path, 'r',encoding="utf-8") as file:
+                combined_content += file.read() + f"\n{'*'*120}\n"  # Add content of each file with a separator
+        else:
+            print(f"File {filename} not found.")
+    
+    return combined_content
+
+def get_metadata_content(prompt):
+
+    results = query_metadata(prompt)
+    
+    if isinstance(results, list):
+        filenames = [list(entry.keys())[0] for entry in results]
+        print(filenames)
+        content = read_file_content(filenames)
+        return content
+    elif results == "RAG":
+        return "RAG"
+    else:
+        return results
+    
+# Example usage
+# prompt = "Can you tell me about the Computer Engineering course ?"
+# result = get_metadata_content(prompt)
+# print(result)
