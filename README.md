@@ -8,7 +8,7 @@ Step 2: Go to the Chatbot Folder
 `cd chatbot`
 
 Step 3: Install the requirements
-`pip install requirements.txt`
+`pip install -r requirements.txt`
 
 Step 4: Recreate the chroma database
 `python create_db.py`

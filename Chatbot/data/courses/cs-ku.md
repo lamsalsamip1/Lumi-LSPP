@@ -1,44 +1,110 @@
-Information on Bachelor of Software Engineering (PU) course
+Information on Bachelors in Computer Science by KU (Kathmandu University)
+B.Sc in Computer Science is a 4 year, 8 semester program of Kathmandu University. Every year KU enrolls 40 students in this program.
 
-Bachelors of Software Engineering program is a 4-year (8 semesters) 133 credit undergraduate engineering program.  Graduates of this program possess knowledge and skills of a defined engineering approach to complex systems analysis, planning, design and construction. The program has a unique, project-driven curriculum, establishing a new model of communication, teamwork, critical thinking and professionalism.
+The study of Computer Science spans wide range, from its theoretical and algorithms foundations to cutting-edge developments in robotics, computer vision, intelligent systems. bioinformatics, and other exciting areas.
 
-Software engineering is a young, challenging discipline that is still evolving as information technologies continue to open up new areas of exploration and potential. Engineers mix the theory and practice of computer science, engineering and traditional IT disciplines to create software that is reliable and works efficiently on real machines.
+The work of a Computer Science graduate falls into three categories:
 
-BE Software Engineering course explores the design, construction and engineering of large, complex software systems that meet information processing challenges within constraints such as cost, time and risk management.
+• They develop effective ways to solve computing problems.
+• They devise new ways to use computers
+• They design and implement software.
+A limited number of scholarships are available for meritorious and financially needy students. The application for financial support is to be submitted at the time of admission.
 
+Eligibility
+10+2 (or equivalent) examinations with minimum of 50% marks in aggregate and 50% in Physics, Chemistry and Mathematics (PCM) or Physics, Mathematics and Computer Science (PMCs).
 
-College offering Bachelor of Software Engineering (PU) course: 
-1. Nepal College of Information Technology (NCIT)
-2. Gandaki College of Engineering and Science
-3. School of Engineering | Pokhara University
+OR Minimum 2.4 GPA in aggregate and minimum C+ in Physics, Chemistry and Mathematics (PCM) or Physics, Mathematics and Computer Science (PMCs) and minimum C in other subjects. Note:
 
-Job Prospects:
-Bachelor of Engineering BE in Software Engineering is intended to produce quality, world-class graduates in this rapidly developing discipline. The degree has been specially designed in response to industry demand to produce graduate software engineers with large-scale software systems project capability. Graduates who can offer skills in these areas are in demand by business and government organisations concerned with software development on a large scale. Such skills are equally important to small projects and businesses, providing software engineering and integration services to government or large private organisations.
+Students who have completed +2 in Biology stream must have taken additional mathematics course and passed it with cumulative PCM of 50% or 2.4 GPA to be eligible for the indicated programs.
 
-Graduates will be prepared for careers across all industries as applications developers, internet developers, programming specialists, systems programmers, and software designers, engineers, architects, consultants and developers.
+Application Process:
 
-1. Software Engineers have a high scope in applications, systems and computer networks
-2. Focused to prepare highly technical and skilled programmer to compete with all IT and computer science graduates
-3. This course, Bachelors of Engineering in Software Engineering, is purely focused on software development which is required by all industry, Government organizations, and Enterprise Houses.
+1. Register your name for Computer-based Test (CBT) at http://apply.ku.edu.np/cbt. Candidates are required to register online before visiting the admissions office for admit cards.
+2. Pay the required CBT and admission application processing fee to KU Account.
+3. Visit Kathmandu University admissions office with your identification document (citizenship card or passport), a photocopy of the identification document, 3 recent PP-size photographs and a bank voucher. Make an appointment for CBT and collect admit card.
+4. Appear on Computer Based Entrance Exam. Please do not forget to bring your admit card and identification document along with you.
+5. Fill up the online application form for admission. The online application form will be available at http://apply.ku.edu.np/admission during admission time.
+   Follow the announcements at http://ku.edu.np.
 
+Job Prospects
+The B.Sc. Computer Science graduates have a prosperous career opportunity at different government, non-government, private and public organizations, like software companies, telecommunications, computer networking companies etc. especially as a:
+Software Developer,Web Developer,Network Administrator,Database Administrator,IT Manager/Officer,Cryptographer,Ergonomics Program Designer,System Analyst,Project Manager,Document Specialist,Information System Auditor,Artificial Intelligence Specialist,Technical Writer,Information System Manager,Database Operator
 
+Fee: NPR 850,000
+Offering colleges: Kathmandu University Central Campus, Dhulikhel
 
-Eligibility for Admission in Bachelor of Software Engineering Pokhara University affiliated colleges:
+Curricular Structure:
 
-1. The candidates should have completed Class 12 examination of NEB or equivalent level from a recognized academic institution.
-2. The candidates should have studied at least one course (having at least 100 full marks or 5 credits) each in Physics, Chemistry and Mathematics.
-3. The candidates should have scored a minimum of 45% or a CGPA/GPA of 2.0 (in a scale of 4.0) and at least Grade C (in case of A-level, at least Grade D) or 45% in each subject (Physics, Chemistry, and Mathematics).
-4. The minimum criterion of Grade C (in case of A level, Grade D) or 45% does not apply to other courses or extra courses, if any. Candidates should have studied mathematics of at least 100 marks in Class 11 or class 12 examination of NEB or equivalent level.
+Year I / Semester I
 
+- MATH 101: Calculus and Linear Algebra - 3 Credits
+- PHYS 101: General Physics I - 3 Credits
+- COMP 102: Computer Programming - 3 Credits
+- ENGG 111: Elements of Engineering I - 3 Credits
+- CHEM 101: General Chemistry - 2 Credits
+- EDRG 101: Engineering Drawing I - 2 Credits
+- ENGG 101: Engineering Project Preparation and Workshop Practice - 2 Credits
 
-Curricular Structure of Bachelor of Software Engineering Pokhara University:
+Year I / Semester II
 
-Semester I: Engineering Mathematics-I, Physics, Communication Technique, Problem Solving Techniques, Fundamentals of IT, Programming in C
-Semester II: Engineering Mathematics-II , Logic Circuits, Mathematical Foundation of Computer Science,Engineering Drawing, Object Oriented Programming in C++, Web Technology
-Semester III: 	Engineering Mathematics- III, Software Engineering Fundamentals, Microprocessor & Assembly Lang. Pro., Data Structure and Algorithms, Probability & Queuing Theory , Programming in Java
-Semester IV: 	Numerical Methods, Computer Graphics, Computer Organization & Architecture, Database Management Systems, Object Oriented Design & Modeling through UML, Project I
-Semester V: Applied Operating System, 	Simulation & Modeling, Artificial Intelligence & Neural Network, System Programming, Analysis & Design of Algorithm, Organization and Management
-Semester VI: Multimedia Systems, Computer Networks, Computer Networks, Principles of Programming Languages, Engineering Economics, Object Oriented Software Development, Project II
-Semester VII: Real Time Systems, Distributed Systems, Enterprise Application Development, Image Processing and Pattern Recognition, Software Testing, Verification, Validation and Quality Assurance, Elective II
-Semester VIII: 	Network Programming, Software Project Management, Elective II, Major Project
-For detailed syllabus, go to https://edusanjal.com/course/bachelor-of-software-engineering-pokhara-university/
+- MATH 104: Advanced Calculus - 3 Credits
+- PHYS 102: General Physics II - 3 Credits
+- COMP 116: Object-Oriented Programming - 3 Credits
+- ENGG 112: Elements of Engineering II - 3 Credits
+- ENGT 105: Technical Communication - 2 Credits
+- ENVE 101: Introduction to Environmental Engineering - 2 Credits
+- EDRG 102: Engineering Drawing II - 2 Credits
+- ENGG 102: Engineering Project - 2 Credits
+
+Year II / Semester I
+
+- MATH 208: Statistics and Probability - 3 Credits
+- MCSC 201: Discrete Mathematics/Structure - 3 Credits
+- EEEG 202: Digital Logic - 3 Credits
+- EEEG 211: Electronics Engineering I - 3 Credits
+- COMP 202: Data Structures and Algorithms - 3 Credits
+- COMP 206: Computer Project I - 2 Credits
+- EEEG 217: Digital Electronics Laboratory Work - 1 Credit
+
+Year II / Semester II
+
+- MATH 207: Differential Equations and Complex Variables - 4 Credits
+- MCSC 202: Numerical Methods - 3 Credits
+- COMP 204: Communication and Networking - 3 Credits
+- COMP 231: Microprocessor and Assembly Language - 3 Credits
+- COMP 232: Database Management Systems - 3 Credits
+- COMP 207: Computer Project II - 2 Credits
+
+Year III / Semester I
+
+- COMP 317: Computational Operations Research - 4 Credits
+- MGTS 301: Engineering Economics - 3 Credits
+- COMP 307: Operating Systems - 3 Credits
+- COMP 315: Computer Architecture and Organization - 3 Credits
+- COMP 316: Theory of Computation - 3 Credits
+- COMP 342: Computer Graphics - 3 Credits
+- COMP 311: Combined/Computer Project - 1 Credit
+
+Year III / Semester II
+
+- COMP 343: Information System Ethics - 3 Credits
+- COMP 302: System Analysis and Design - 3 Credits
+- COMP 409: Compiler Design - 3 Credits
+- COMP 314: Algorithms and Complexity - 3 Credits
+- COMP 323: Graph Theory - 3 Credits
+- COMP 341: Human Computer Interaction - 3 Credits
+- COMP 313: Combined Computer Project - 1 Credit
+
+Year IV / Semester I
+
+- MGTS 403: Engineering Management - 3 Credits
+- COMP 401: Software Engineering - 3 Credits
+- COMP 472: Artificial Intelligence - 3 Credits
+- Elective I - 3 Credits
+
+Year IV / Semester II
+
+- MGTS 402: Engineering Entrepreneurship - 3 Credits
+- COMP 486: Software Dependability - 3 Credits
+- COMP 408: Internship - 6 Credits
+- Elective II - 3 Credits
