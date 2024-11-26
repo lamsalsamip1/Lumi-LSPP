@@ -30,7 +30,7 @@ METADATA_MAP = {
 
     "be-automobile-tu.md": {"courses": ["BE Automobile","Bachelor in Automobile Engineering","Automobile Engineering","Automobile Eng"], "university": ["Tribhuvan University", "TU"]},
     
-    "be-elect-ku.md": {"courses": ["BE Electrical and Electronics","Bachelor in Electrical and Electronics Engineering","Electrical and Electronics Engineering","Electrical Eng","Electrical Engineering","Electronics Engineering","Electronics Eng","Electronics and Electrical"], "university": ["Kathmandu University", "KU"]},
+    "be-elect-ku.md": {"courses": ["BE Electrical and Electronics","Bachelor in Electrical and Electronics Engineering","Electrical and Electronics Engineering","Electrical Eng","Electrical Engineering","Electronics Engineering","Electronics Eng","Electronics and Electrical","Electronics","Electrical"], "university": ["Kathmandu University", "KU"]},
 
     "be-geomatics-ku.md": {"courses": ["BE Geomatics","Bachelor in Geomatics Engineering","Geomatics Engineering","Geomatics Eng","Geomatics"], "university": ["Kathmandu University", "KU"]},
 
@@ -42,7 +42,7 @@ METADATA_MAP = {
 
     "bel-tu.md":{"courses":["BE Electrical","Bachelor in Electrical Engineering","Electrical Engineering","Electrical Eng"], "university": ["Tribhuvan University", "TU"]},
 
-    "bit-herald.md": {"courses": ["BIT","Bachelor in Information Technology","Information Technology","Bachelor in IT","bsc hons","hons"], "university": ["Herald College", "Herald","University of Wolverhampton","Herald College Kathmandu","foreign university"]},
+    "bsc-comp-herald": {"courses": ["BIT","Bachelor in Information Technology","Information Technology","Bachelor in IT","bsc hons","hons"], "university": ["Herald College", "Herald","University of Wolverhampton","Herald College Kathmandu","foreign university"]},
 
     "bsc-comp-islington.md": {"courses": ["BSc Computing","Bachelor in Computing","Computing","bsc hons","hons"], "university": ["Islington College", "Islington","London Metropolitan University","London Met University","foreign university"]},
 
