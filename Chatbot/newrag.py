@@ -68,7 +68,8 @@ def format_prompt(conversation_history, user_question,context_text, max_history=
 
 
 
-# model = OllamaLLM(model='llama3.2:1b', device='cuda')
+# model = OllamaLLM(model='llama3.2', device='cuda')
+
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 last_context=None
 db = load_vector_store()

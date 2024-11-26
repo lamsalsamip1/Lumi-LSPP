@@ -53,7 +53,6 @@ METADATA_MAP = {
     "se-pu.md": {"courses": ["Software Engineering","Bachelor in Software Engineering","Software Eng","Software","Bachelor in Software","Bachelor of Engineering in Software Engineering"], "university": ["Pokhara University", "PU"]},
 
     "be-chemical-tu.md": {"courses": ["BE Chemical","Bachelor in Chemical Engineering","Chemical Engineering","Chemical Eng","Bachelor of Engineering in Chemical Engineering"], "university": ["Tribhuvan University", "TU"]},
-
 }
 
 last_course=None
