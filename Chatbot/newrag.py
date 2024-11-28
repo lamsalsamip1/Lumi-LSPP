@@ -21,7 +21,7 @@ def load_vector_store():
     return Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
 
 def query_vector_store(db, query_text):
-    results = db.similarity_search_with_relevance_scores(query_text, k=6)
+    results = db.similarity_search_with_relevance_scores(query_text, k=5)
     if len(results) == 0 or results[0][1] < 0.3:
         print(f"Unable to find matching results.")
         
@@ -33,6 +33,7 @@ def format_prompt(conversation_history, user_question,context_text, max_history=
     # Define the RAG prompt template with placeholders
     prompt_template = """
     You are Lumi, a knowledgeable assistant dedicated to answering questions related to courses and universities in Nepal. Answer the user's query based on the facts present in the retrieved context in a natural way. Access the chat history when needed. Like when user wants to compare two degrees, check the latest conversation history to find out what other course he is talking about. If you find no relevant information in the context, say that you don't know.
+    Do not explain your thought process of answering.
 
     ---
 
@@ -68,43 +69,78 @@ def format_prompt(conversation_history, user_question,context_text, max_history=
 
 
 
-# model = OllamaLLM(model='llama3.2', device='cuda')
-
+model=ChatOpenAI(model="gpt-4o-mini")
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 last_context=None
 db = load_vector_store()
-# Main loop
-while True:
-    # Get user input
-    user_question = input("You: ")
-    
-    # Assuming get_metadata_content is a function that takes the prompt and returns a response
-    context_text = get_metadata_content(user_question)
 
-    #Handle if metadata matching fails
-    if not context_text:
-        # Use last context if available
-        if last_context is not None:
-            context_text = last_context
-        #Make a vector search if no last context 
-        else:
+
+def main():
+    while True:
+        # Get user input
+        user_question = input("You: ")
+        
+        # Assuming get_metadata_content is a function that takes the prompt and returns a response
+        context_text = get_metadata_content(user_question)
+
+        #Handle if metadata matching fails
+        if not context_text:
+            # Use last context if available
+            if last_context is not None:
+                context_text = last_context
+            #Make a vector search if no last context 
+            else:
+                context_text = query_vector_store(db, user_question)
+            print(context_text)
+        
+        # Make a vector search if only university name is extracted
+        if context_text=="RAG":
+            print("performing rag to find out..")
             context_text = query_vector_store(db, user_question)
-        print(context_text)
+            
+
+        # Replace the placeholder with the actual conversation history
+        prompt = format_prompt(conversation_history, user_question, context_text)
+        
+        # Print the assistant's response
+        model=ChatOpenAI(model="gpt-4o-mini")
+        response=model.invoke(prompt)
     
-    # Make a vector search if only university name is extracted
-    if context_text=="RAG":
-        print("performing rag to find out..")
-        context_text = query_vector_store(db, user_question)
+        print(f"Lumi: {response.content}")
+        conversation_history.append({"user": user_question, "assistant": response})
+        last_context = context_text
         
 
-    # Replace the placeholder with the actual conversation history
-    prompt = format_prompt(conversation_history, user_question, context_text)
+# Function for API:
+def get_model_response(user_input):
+    global last_context
+    context_text = get_metadata_content(user_input)
+    if not context_text:
+            # Use last context if available
+        if last_context is not None:
+            context_text = last_context
+            #Make a vector search if no last context 
+        else:
+            context_text = query_vector_store(db, user_input)
+            print(context_text)
+        
+        # Make a vector search if only university name is extracted
+    if context_text=="RAG":
+        print("performing rag to find out..")
+        context_text = query_vector_store(db, user_input)
     
-    # Print the assistant's response
-    model=ChatOpenAI(model="gpt-4o-mini")
+    prompt = format_prompt(conversation_history, user_input, context_text)
     response=model.invoke(prompt)
-   
-    print(f"Lumi: {response.content}")
-    conversation_history.append({"user": user_question, "assistant": response})
+    conversation_history.append({"user": user_input, "assistant": response})
+
     last_context = context_text
+
+    return response.content
     
+def clear_convo_history():
+    global conversation_history,last_context
+    last_context = None  # Clear the context
+    conversation_history = []  # Clear the history
+
+if __name__ == "__main__":
+    main()
