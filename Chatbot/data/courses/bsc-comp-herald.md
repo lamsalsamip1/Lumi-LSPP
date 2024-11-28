@@ -1,8 +1,9 @@
 Information on BSc (Hons) Computer Science (Herald College Kathmandu)
+Foreign university affiliated course.
 
 Program Overview: The BSc (Hons) Computer Science program at Herald College Kathmandu is a three-year undergraduate course designed to provide students with a solid foundation in computer science principles and hands-on experience with emerging technologies like Artificial Intelligence, Big Data, and Cloud Computing (ABC of IT). The curriculum emphasizes practical, industry-oriented learning and prepares students for careers in software development, IT systems, and advanced computing technologies.
 
-Affiliation: The program is affiliated with University of Wolverhampton and adheres to its quality standards.
+Affiliation: The program is affiliated with University of Wolverhampton, and adheres to its quality standards.
 
 Entry Requirements:
 Academic Qualifications: NEB +2 or equivalent with an aggregate of 2.2 CGPA (55%) or above, a minimum grade D in theory and practical, and a SEE Mathematics score of C+ or above.
