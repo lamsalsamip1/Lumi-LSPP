@@ -76,6 +76,7 @@ db = load_vector_store()
 
 
 def main():
+    global last_context
     while True:
         # Get user input
         user_question = input("You: ")
@@ -103,7 +104,6 @@ def main():
         prompt = format_prompt(conversation_history, user_question, context_text)
         
         # Print the assistant's response
-        model=ChatOpenAI(model="gpt-4o-mini")
         response=model.invoke(prompt)
     
         print(f"Lumi: {response.content}")
