@@ -5,9 +5,16 @@ Bsc Computer Science and Information Technology (Bsc CSIT) of Tribhuvan Universi
 The Bachelor of Science in Computer Science and Information Technology (B.Sc. CSIT)
 curriculum is designed by closely following the courses practiced in accredited international universities, subject to the condition that the intake students are twelve years of schooling in the science stream or equivalent from any university recognized by Tribhuvan University(TU). In addition to the foundation and core Computer Science and Information Technology courses, the program offers several elective courses to fulfill the demand of high technology applications development. The foundation and core courses are designed to meet the undergraduate academic program requirement, and the service courses are designed to meet the need of fast changing computer technology and application. Students enrolled in the four year B.Sc. CSIT program are required to take courses in design and implementation of computer software systems, foundation in the theoretical model of computer science and a functional background of computer hardware. All undergraduate students are required to complete 126 credit hours of computer science course and allied courses.
 
-Colleges offering BSc.CSIT course:
-Private Colleges:St.Xavier's College, Deerwalk Institute of Technology, Prime College, Kathford College, Nepalaya college, and more.
-Public/Government colleges: Amrit Science Campus, Patan Multiple Campus, Bhaktapur Multiple Campus, Padmaksanya Multiple Campus,etc.
+Public/Government colleges offering CSIT:
+
+1. Amrit Science Campus- Lainchaur,Kathmandu,
+2. Patan Multiple Campus
+3. Bhaktapur Multiple Campus
+4. Padmakanya Multiple Campus- Bagbazar, Kathmandu
+5. Siddhanath Science Campus
+
+Private colleges offering BSc.CSIT course:
+St.Xavier's College, Deerwalk Institute of Technology, Prime College, Kathford College, Nepalaya college, and more.
 For full list of colleges offering BSc.CSIT course, visit https://www.collegesnepal.com/bsc-csit/
 
 Job Prospects
@@ -19,13 +26,12 @@ A student eligible to study the B.Sc. CSIT course should collect and submit the 
 
 Entrance Examination:
 
-1. Tribhuvan University, Institute of Science and Technology, Dean office conducts the entrance examination for CSIT.The Entrance Examination will be of 100 Full Marks including the subjects of Intermediate/10+2 level or equivalent incorporating English, Mathematics, Physics and Chemistry subjects and the pass marks is 35. All the Questions of Entrance Examination will be Objective Type (MCQs).The Examination Time Duration will be of 2 hours.
+1. Tribhuvan University, Institute of Science and Technology, Dean office conducts the entrance examination for CSIT.The Entrance Examination will be of 100 Full Marks including the subjects of Intermediate/10+2 level or equivalent incorporating English, Mathematics, Physics, Chemistry and Computer subjects and the pass marks is 35. All the Questions of Entrance Examination will be Objective Type (MCQs).The Examination Time Duration will be of 2 hours. It will consist of Objective questions with a total of 100 marks, based on the curriculum of I.Sc./Grade 11 and 12 or equivalent, including 25 marks for Mathematics, 25 marks for Physics, 25 marks for Chemistry, 15 marks for English, and 10 marks for Computer-related knowledge.
 
-Admission Guidelines of CSIT:
+Application Process of CSIT:
 
-1. The Admission Form and Entrance Model Questions can be received from any of the B.Sc. CSIT colleges.
-2. Students do not need to fill up the TU Admission Form in more than one college. Form filled from one college will be valid for all colleges/campuses.
-3. Students of Grade 12 Supplementary Exam can also fill up the TU Admission Form but such students should present the Academic Transcript of Passing 10+2/Intermediate level before publication of entrance result, otherwise the entrance examination result of such students will not be published.
+1. Students can fill the application form online via the IOST website, https://www.iost.tu.edu.np.The form will cost Rs-1950 and can be paid through digital wallets.
+   2.{to be filled}
 
 Curricular Structure of CSIT:
 Semester I: Introduction to Information Technology (IIT), C Programming, Digital Logic, Mathematics I, Physics

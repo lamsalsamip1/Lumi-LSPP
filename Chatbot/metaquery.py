@@ -57,6 +57,20 @@ METADATA_MAP = {
     "bscs-kings.md": {"courses": ["BSc Computer Science","Bachelor in Computer Science","Computer Science","Computer Science","Bachelor of Science in Computer Science"], "university": ["Kings College", "Kings College","foreign university","Westcliff University"]},
 
     "bs-it-kings.md": {"courses": ["BS IT","Bachelor in Information Technology","Information Technology","Bachelor in IT","Bachelor of Science in Information Technology"], "university": ["Kings College", "Kings College","foreign university","Westcliff University"]},
+    
+    "biotechKU.md": {"courses": ["BTech Biotechnology","Bachelor in Biotechnology","Biotechnology","Biotech","Bachelor of Technology in Biotechnology","BTech Biotech","btech biotechnology","b tech biotechnology","b.tech biotechnology"], "university": ["Kathmandu University", "KU"]},
+
+    "bscND.md":{"courses":["BSc Nutrition and Dietetics","Bachelor in Nutrition and Dietetics","Nutrition and Dietetics","Nutrition","Dietetics","Bachelor of Science in Nutrition and Dietetics","Dietics"], "university": ["Tribhuvan University", "TU"]},
+
+    "bscmath.md":{"courses":["BSc Mathematical Sciences ","Bachelor in Mathematical Sciences","Mathematical Sciences","Mathematical","Mathematics","Bachelor of Science in Mathematical Sciences"], "university": ["Tribhuvan University", "TU"]},
+
+    "compmath.md":{"courses":["Computational Mathematics","Bachelor in Computational Mathematics","Computational","Mathematics","Bachelor of Science in Computational Mathematics"], "university": ["Kathmandu University", "KU"]},
+
+    "datascience.md":{"courses":["BSc Data Science","Bachelor in Data Science","Data Science","Data","Science","Bachelor of Science in Data Science","BSc Data","Bachelor in Data"], "university": ["Tribhuvan University", "TU"]},
+
+    "foodtech.md":{"courses":["BTech Food Technology","Bachelor in Food Technology","Food Technology","Food","Technology","Bachelor of Technology in Food Technology","BTech Food","Bachelor in Food","b tech food technology"], "university": ["Tribhuvan University", "TU"]},
+
+    "ku-env_eng.md":{"courses":["BTech Environmental Engineering","Bachelor in Environmental Engineering","Environmental Engineering","Environmental Eng","Bachelor of Technology in Environmental Engineering","BTech Environmental","Bachelor in Environmental","b tech environmental engineering"], "university": ["Kathmandu University", "KU"]},
 }
 
 last_course=None
@@ -77,7 +91,7 @@ course_pattern = r"\b(" + "|".join([re.escape(c) for c in courses]) + r")\b"
 def get_best_match(input_text, options):
     # Use fuzzy matching to find the best match from the list of options
     match, score = process.extractOne(input_text, options, scorer=fuzz.token_sort_ratio)
-    return match if score > 80 else None  # Adjust threshold as needed
+    return match if score > 75 else None  # Adjust threshold as needed
 
 # Function to extract universities and courses with fuzzy matching
 def extract_info_from_prompt(prompt):
