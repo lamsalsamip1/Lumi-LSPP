@@ -54,6 +54,20 @@ METADATA_MAP = {
 
     "be-chemical-tu.md": {"courses": ["BE Chemical","Bachelor in Chemical Engineering","Chemical Engineering","Chemical Eng","Bachelor of Engineering in Chemical Engineering"], "university": ["Tribhuvan University", "TU"]},
 
+    "bsc-cybersec-herald.md": {"courses": ["BSc Cybersecurity", "BSc in Cybersecurity", "Bachelor of Science in Cybersecurity", "Cybersecurity", "IT Security", "Computer Security", "Security", "bsc hons", "hons", "Cyber Sec", "Cyber Sec Course", "Cybersecurity Course"], "university": ["University of Wolverhampton", "Herald College", "herald", "foreign university", "Wolverhampton"]},
+
+    "bsc-network-islington.md": {"courses": ["BSc Networking", "BSc in Networking", "BSc IT Security", "Bachelor of Science in Networking", "Bachelor of Science in Networking and IT Security", "Networking and IT Security", "Computer Networking", "IT Security", "Computer Security", "Security", "bsc hons", "hons", "Networking Course", "Network Security", "Networking and Security"], "university": ["London Metropolitan University", "Islington College", "Islington", "foreign university", "London Met"]},
+
+    "bsc-multimedia-islington.md": {"courses": ["BSc Multimedia", "BSc in Multimedia", "Bachelor of Science in Multimedia Technologies", "Multimedia Technologies", "Multimedia Design", "Multimedia Development", "Digital Media Production", "Multimedia", "bsc hons", "hons", "Multimedia Course", "Multimedia Tech", "Media Production"], "university": ["London Metropolitan University", "Islington College", "foreign university", "London Met"]},
+
+
+    "bsc-computing-softwarica.md": {"courses": ["BSc Computing", "BSc in Computing", "Bachelor of Science in Computing", "Computing", "IT Computing", "Computer Science", "Bachelor in IT","bsc hons","hons"], "university": ["Coventry University", "Softwarica College", "UK University", "Foreign University", "Softwarica", "Coventry"]},
+
+    "bsc-ethical-hacking-softwarica.md": {"courses": ["BSc Ethical Hacking", "BSc Cybersecurity", "BSc in Ethical Hacking and Cybersecurity", "Bachelor of Science in Ethical Hacking", "Bachelor of Science in Cybersecurity", "Ethical Hacking", "Cybersecurity", "IT Security", "Computer Security", "Cyber Security", "Information Security", "BSc Hons", "Hons", "Ethical Hacking Course", "Hacking and Security", "BSc in Hacking"], "university": ["Coventry University", "Softwarica College", "UK University", "Foreign University", "Softwarica", "Coventry"]},
+
+    "bsc-computer-science-ai-softwarica.md": {"courses": ["BSc Computer Science", "BSc in Computer Science", "Bachelor of Science in Computer Science", "Computer Science", "Computer Science with AI", "AI and Computer Science", "Artificial Intelligence", "CS with AI", "CS AI", "AI", "BSc Artificial Intelligence", "Bachelor in Artificial Intelligence", "Artificial Intelligence Course", "CS with Artificial Intelligence", "BSc AI", "BSc Hons", "Hons"], "university": ["Coventry University", "Softwarica College", "UK University", "Foreign University", "Softwarica", "Coventry", "Coventry University UK"]}
+
+
 }
 
 last_course=None
