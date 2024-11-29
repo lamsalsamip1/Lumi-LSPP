@@ -9,8 +9,11 @@ import os
 
 
 CHROMA_PATH = "chroma"
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
+deployment_name="gpt-4o"
+openai.api_type="azure"
+openai.api_key = os.getenv("Azure_OpenAI_API_KEY")
+openai.api_base="https://openai-lumi.openai.azure.com/"
+openai.api_version="2024-10-01"
 
 ## Initialize an empty list to store the conversation history
 conversation_history = []
