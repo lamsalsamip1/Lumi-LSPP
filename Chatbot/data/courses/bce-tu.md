@@ -28,7 +28,7 @@ Semester IV: Hydraulics, Surveying II, Soil Mechanics, Probability and Statistic
 Semester V: Numerical Methods, Theory of Structure II, Transportation Engineering I, Water Supply Engineering, Concrete Technology, Structural Analysis, Engineering Hydrology.
 Semester VI: Design of Steel and Timber Structures, Transportation Engineering II, Sanitary Engineering, Foundation Engineering, Estimating and Valuation, Irrigation Engineering.
 Semester VII: Design of Reinforced Concrete Structures, Transportation Engineering III, Water Resources Engineering, Project Planning and Construction Management, Elective I, Project Work Part I.
-Semester VIII: Design of Hydraulic Structures, Environmental Impact Assessment, Professional Practice and Ethics, Elective II, Project Work Part II. For a detailed syllabus, visit https://edusanjal.com/course/bachelor-of-civil-engineering-tribhuvan-university/.
+Semester VIII: Design of Hydraulic Structures, Environmental Impact Assessment, Professional Practice and Ethics, Elective II, Project Work Part II. For a detailed syllabus, visit the official website, https://civil.pcampus.edu.np/index.php/academic-programs/b-e-in-civil-engineering/
 
 Application and Admission Process: Payment: Pay the application fee through Siddhartha Bank, Connect IPS, eSewa, or Khalti Wallet and obtain the bank voucher or Transaction ID Number. Registration: Visit the official IOE Entrance Examination website at https://entrance.ioe.edu.np, register, and upload necessary documents, including a passport-size photograph, signature, and academic transcripts. Confirmation: Save or print the confirmation page after submission for future reference.
 

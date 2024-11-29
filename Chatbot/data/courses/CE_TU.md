@@ -58,7 +58,7 @@ Semester V: Communication English, Probability and Statistics, Control System, I
 Semester VI: Engineering Economics, Artificial Intelligence, Object Oriented Analysis and Design, Embedded System, Operating System, Database Management System, Minor Project
 Semester VII: Project Management, Organization and Management, Energy Environment and Society, Distributed System, Computer Networks and Security, Digital Signal Analysis and Processing, Elective I, Project (Part A)
 Semester VIII: Engineering Professional Practice, Information System, Simulation and Modeling, Internet and Intranet, Elective II, Elective III, Project (Part B)
-For detailed syllabus, go to https://edusanjal.com/course/bachelor-of-computer-engineering-tribhuvan-university/
+For more detailed syllabus, go to https://doece.pcampus.edu.np/index.php/bce/
 
 UG Scholarships Provisions of TU Institute of Engineering:
 

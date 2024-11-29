@@ -10,7 +10,7 @@ from langchain_openai import OpenAIEmbeddings
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/courses/"
-deployment_name="gpt-4o"
+# deployment_name="gpt-4o"
 openai.api_type="azure"
 openai.api_key = os.getenv("Azure_OpenAI_API_KEY")
 openai.api_base="https://openai-lumi.openai.azure.com/"

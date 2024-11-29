@@ -24,7 +24,7 @@ def load_vector_store():
     return Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
 
 def query_vector_store(db, query_text):
-    results = db.similarity_search_with_relevance_scores(query_text, k=5)
+    results = db.similarity_search_with_relevance_scores(query_text, k=6)
     if len(results) == 0 or results[0][1] < 0.3:
         print(f"Unable to find matching results.")
         

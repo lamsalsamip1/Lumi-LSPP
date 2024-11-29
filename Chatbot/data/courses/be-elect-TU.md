@@ -47,7 +47,7 @@ Semester V: Engineering Economics, Database Management Systems, Computer Network
 Semester VI: Communication English, Project Management, Propagation and Antenna, Communication Systems, Object-Oriented Software Engineering, Embedded Systems, Minor Project
 Semester VII: RF and Microwave Engineering, Artificial Intelligence, Organization and Management, Digital Signal Analysis and Processing, Wireless Communication, Elective I, Project (Part A)
 Semester VIII: Telecommunications, Engineering Professional Practice, Energy, Environment, and Society, Information Systems, Elective II, Elective III, Project (Part B)
-For detailed syllabus, go to https://edusanjal.com/course/bachelor-of-electronics-and-communication-engineering-tribhuvan-university/
+For detailed syllabus, go to https://doece.pcampus.edu.np/index.php/bex-becie/
 
 Application and Admission Process
 » Make a payment of NRs. 2,000/- through Sidhhartha Bank or through Connect IPS/eSewa/ Khalti Wallet and get bank voucher or Transaction ID Number For payment process, please refer https://entrance.ioe.edu.np
