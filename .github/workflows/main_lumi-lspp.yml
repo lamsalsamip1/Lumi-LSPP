@@ -21,7 +21,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
+          
+      - name: Install sqlite3
+        run: sudo apt-get update && sudo apt-get install -y sqlite3 libsqlite3-dev
+        
+      - name: Check sqlite3 version
+        run: sqlite3 --version
+        
       - name: Create and start virtual environment
         run: |
           python -m venv venv
@@ -29,7 +35,7 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r Chatbot/requirements.txt
-
+      
       - name: Set environment variables
         run: |
           echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY}}" >> $GITHUB_ENV
