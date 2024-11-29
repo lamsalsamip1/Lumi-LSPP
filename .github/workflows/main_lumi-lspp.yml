@@ -26,12 +26,12 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
-
-      - name: Build chroma database
-        run: python Chatbot/create_db.py
       
       - name: Install dependencies
         run: pip install -r Chatbot/requirements.txt
+
+      - name: Build chroma database
+        run: python Chatbot/create_db.py
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
