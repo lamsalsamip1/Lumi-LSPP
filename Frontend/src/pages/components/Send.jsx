@@ -1,10 +1,11 @@
-import {  useState } from "react";
 import { send } from "../../assets"
 import useSendMessage from "../../hooks/useSendBotMessage";
 import useClearHistory from "../../hooks/useClearHistory";
+import useChat from "../../zustand/useChat";
+
 
 const Send = () => {
-  const [message,setMessage]=useState("")
+  const {message,setMessage}=useChat();
   
   const {loading,sendMessage}= useSendMessage();
   const {clearHistory, loadingc}= useClearHistory();
