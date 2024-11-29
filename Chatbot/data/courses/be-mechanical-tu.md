@@ -4,8 +4,17 @@ Program Overview: The Bachelor of Mechanical Engineering (BE Mechanical) program
 EDUSANJAL
 
 Colleges Offering the Program:
-Government/Public Colleges: Pulchowk Campus, Pulchowk, Lalitpur; Thapathali Campus, Thapathali, Kathmandu; Purwanchal Campus, Dharan, Sunsari; Pashchimanchal Campus, Lamachaur, Pokhara, Kaski.
-EDUSANJAL
+Government Institutions:
+
+1. Pulchowk Campus, Lalitpur -96 seats
+2. Thapathali Campus, Kathmandu -48 seats
+3. Pashchimanchal Campus, Pokhara- 48 seats
+4. Purwanchal Campus,Dharan
+
+Fee structure:
+According to the latest notice, the fee for government institutions has been set at Rs 56,700 for regular students under the scholarship, Rs 490,000 for full-paying students, and Rs 1,313,500 for international students. For a more detailed breakdown of the fee structure, refer to the official booklet here: https://entrance.ioe.edu.np/notice/download?filename=BE_BArch%20Booklet%202081.pdf&contentType=pdf
+
+Private Institutions:None
 
 Job Prospects: Graduates of the BE Mechanical program have diverse career opportunities in both public and private sectors. They can work in industries involving large steam and gas turbines, components of thermal power stations, internal combustion engines, jet engines, machine tools, air conditioning and heating machines, refrigerators, and more. Mechanical engineers are involved in the design, development, construction, production, installation, operation, and maintenance of these systems.
 EDUSANJAL

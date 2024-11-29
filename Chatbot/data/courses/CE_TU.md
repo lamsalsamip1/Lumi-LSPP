@@ -13,13 +13,20 @@ Government Institutions:
 3. Pashchimanchal Campus, Pokhara- 48 seats
 4. Purwanchal Campus,Dharan
 
-Private Institutions:
+According to the latest notice, the fee for government institutions has been set at Rs 56,700 for regular students under the scholarship, Rs 490,000 for full-paying students, and Rs 1,313,500 for international students. For a more detailed breakdown of the fee structure, refer to the official booklet here: https://entrance.ioe.edu.np/notice/download?filename=BE_BArch%20Booklet%202081.pdf&contentType=pdf
 
-1. Advanced College of Engineering and Management
-2. Sagarmatha Engineering College
-3. National College of Engineering (NCE)
-4. Kathmandu Engineering College
-   List of all other colleges: https://edusanjal.com/course/bachelor-of-computer-engineering-tribhuvan-university/
+Private Institutions:
+-Advanced College of Engineering and Management, Kupondol, Lalitpur
+-Kantipur Engineering College, Dhapakhel, Lalitpur
+-National College of Engineering, Talsikhel,Lalitpur
+-Himalaya College of Engineering, Chyasal, Lalitpur
+-Sagarmatha Engineering College, Sanepa, Lalitpur
+-Lalitpur Engineering College, Chakupat, Lalitpur
+-Kathford International College of Engineering and Management, Gwarkho, Lalitpur
+-Kathmandu Engineering College, Kalimati, Kathmandu
+-Khwopa College of Engineering, Libali, Bhaktapur
+-Janakpur Engineering College, Tathali, Bhaktapur.
+Fee structure depends on specific campus.
 
 Job Prospects:
 Computer engineers are in high demand in different industries including software, hardware, and electronics. Computer engineers can work in any of the positions:
@@ -51,7 +58,7 @@ Semester V: Communication English, Probability and Statistics, Control System, I
 Semester VI: Engineering Economics, Artificial Intelligence, Object Oriented Analysis and Design, Embedded System, Operating System, Database Management System, Minor Project
 Semester VII: Project Management, Organization and Management, Energy Environment and Society, Distributed System, Computer Networks and Security, Digital Signal Analysis and Processing, Elective I, Project (Part A)
 Semester VIII: Engineering Professional Practice, Information System, Simulation and Modeling, Internet and Intranet, Elective II, Elective III, Project (Part B)
-For detailed syllabus, go to https://edusanjal.com/course/bachelor-of-computer-engineering-tribhuvan-university/
+For more detailed syllabus, go to https://doece.pcampus.edu.np/index.php/bce/
 
 UG Scholarships Provisions of TU Institute of Engineering:
 

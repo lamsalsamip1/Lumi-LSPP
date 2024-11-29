@@ -8,6 +8,8 @@ Government/Public colleges that offer Bachelor of Electronics, Communication and
 3.Eastern Region Campus, Dharan, Sunsari
 4.Western Region Campus, Pokhara, Lamachaur, Kaski
 
+According to the latest notice, the fee for government institutions has been set at Rs 56,700 for regular students under the scholarship, Rs 490,000 for full-paying students, and Rs 1,313,500 for international students. For a more detailed breakdown of the fee structure, refer to the official booklet here: https://entrance.ioe.edu.np/notice/download?filename=BE_BArch%20Booklet%202081.pdf&contentType=pdf
+
 Other Private colleges that offer Bachelor of Electronics, Communication and Information Engineering course:
 
 1. Advanced College of Engineering and Management
@@ -45,7 +47,7 @@ Semester V: Engineering Economics, Database Management Systems, Computer Network
 Semester VI: Communication English, Project Management, Propagation and Antenna, Communication Systems, Object-Oriented Software Engineering, Embedded Systems, Minor Project
 Semester VII: RF and Microwave Engineering, Artificial Intelligence, Organization and Management, Digital Signal Analysis and Processing, Wireless Communication, Elective I, Project (Part A)
 Semester VIII: Telecommunications, Engineering Professional Practice, Energy, Environment, and Society, Information Systems, Elective II, Elective III, Project (Part B)
-For detailed syllabus, go to https://edusanjal.com/course/bachelor-of-electronics-and-communication-engineering-tribhuvan-university/
+For detailed syllabus, go to https://doece.pcampus.edu.np/index.php/bex-becie/
 
 Application and Admission Process
 » Make a payment of NRs. 2,000/- through Sidhhartha Bank or through Connect IPS/eSewa/ Khalti Wallet and get bank voucher or Transaction ID Number For payment process, please refer https://entrance.ioe.edu.np

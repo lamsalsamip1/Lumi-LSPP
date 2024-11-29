@@ -5,6 +5,11 @@ The Bachelor of Engineering in Agriculture Engineering program at Tribhuvan Univ
 Government/Public Colleges that offer Bachelor of Engineering in Agriculture Engineering (Tribhuvan University):
 Purwanchal Campus, Dharan
 
+Private Colleges: None
+
+Fee structure:
+According to the latest notice, the fee for government institutions has been set at Rs 56,700 for regular students under the scholarship, Rs 490,000 for full-paying students, and Rs 1,313,500 for international students. For a more detailed breakdown of the fee structure, refer to the official booklet here: https://entrance.ioe.edu.np/notice/download?filename=BE_BArch%20Booklet%202081.pdf&contentType=pdf
+
 Job Prospects:
 Graduates of this program can pursue careers in:
 Agricultural machinery design and manufacturing, irrigation and drainage system design, soil and water conservation, renewable energy applications in agriculture, post-harvest technology and food processing, agricultural research and development, rural infrastructure development, and agricultural consultancy services.

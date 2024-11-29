@@ -6,6 +6,12 @@ Government/Public Colleges that offer Bachelor of Engineering in Automobile Engi
 Thapathali Campus, Kathmandu
 Pashchimanchal Campus, Pokhara
 
+Private College: None
+
+Fee structure:
+
+According to the latest notice, the fee for government institutions has been set at Rs 56,700 for regular students under the scholarship, Rs 490,000 for full-paying students, and Rs 1,313,500 for international students. For a more detailed breakdown of the fee structure, refer to the official booklet here: https://entrance.ioe.edu.np/notice/download?filename=BE_BArch%20Booklet%202081.pdf&contentType=pdf
+
 Job Prospects:
 Graduates of this program can pursue careers in:
 Vehicle design, development, and manufacturing; maintenance engineering and services in automotive shops; aircraft industries; aviation, vessels, and diesel power plants; service stations, defense services, and private transport companies; and self-employment opportunities, such as running a car garage or maintenance workshop.

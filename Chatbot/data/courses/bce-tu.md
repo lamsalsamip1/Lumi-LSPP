@@ -3,8 +3,18 @@ Information on Bachelor of Civil Engineering (TU)
 Program Overview: The Bachelor of Civil Engineering (BE Civil) program at Tribhuvan University is a four-year, eight-semester course designed to equip students with the knowledge and skills necessary for planning, designing, constructing, and maintaining physical and natural environments. This includes infrastructure such as roads, bridges, canals, dams, and buildings. The program emphasizes both theoretical understanding and practical application, preparing graduates to address evolving challenges in civil engineering.
 
 Colleges Offering the Program:
-Government/Public Colleges: Pulchowk Campus, Pulchowk, Lalitpur; Thapathali Campus, Thapathali, Kathmandu; Purwanchal Campus, Dharan, Sunsari; Pashchimanchal Campus, Lamachaur, Pokhara, Kaski.
-Private Colleges: Kathford International College of Engineering and Management; Sagarmatha Engineering College; Himalaya College of Engineering; Kathmandu Engineering College; National College of Engineering; Kantipur Engineering College; Advanced College of Engineering and Management; Lalitpur Engineering College; Khwopa College of Engineering; Janakpur Engineering College.
+
+Government/Public colleges:
+
+1. Pulchowk Campus, Lalitpur
+2. Thapathali Campus, Kathmandu
+3. Pashchimanchal Campus, Pokhara
+4. Purwanchal Campus,Dharan
+
+Fee structure:
+According to the latest notice, the fee for government institutions has been set at Rs 56,700 for regular students under the scholarship, Rs 490,000 for full-paying students, and Rs 1,313,500 for international students. For a more detailed breakdown of the fee structure, refer to the official booklet here: https://entrance.ioe.edu.np/notice/download?filename=BE_BArch%20Booklet%202081.pdf&contentType=pdf
+
+Private Colleges: Kathford International College of Engineering and Management; Sagarmatha Engineering College; Himalaya College of Engineering; Kathmandu Engineering College; National College of Engineering; Kantipur Engineering College; Advanced College of Engineering and Management; Lalitpur Engineering College; Khwopa College of Engineering; Janakpur Engineering College. The fee structure depends on the specific colleges.
 
 Job Prospects: Graduates of the BE Civil program have diverse career opportunities in both public and private sectors. They can work in design and development firms, government and non-government agencies, engineering consultancies, and construction companies. Roles may involve planning and designing infrastructure projects, overseeing construction and maintenance, and engaging in urban planning and environmental management.
 
@@ -18,7 +28,7 @@ Semester IV: Hydraulics, Surveying II, Soil Mechanics, Probability and Statistic
 Semester V: Numerical Methods, Theory of Structure II, Transportation Engineering I, Water Supply Engineering, Concrete Technology, Structural Analysis, Engineering Hydrology.
 Semester VI: Design of Steel and Timber Structures, Transportation Engineering II, Sanitary Engineering, Foundation Engineering, Estimating and Valuation, Irrigation Engineering.
 Semester VII: Design of Reinforced Concrete Structures, Transportation Engineering III, Water Resources Engineering, Project Planning and Construction Management, Elective I, Project Work Part I.
-Semester VIII: Design of Hydraulic Structures, Environmental Impact Assessment, Professional Practice and Ethics, Elective II, Project Work Part II. For a detailed syllabus, visit https://edusanjal.com/course/bachelor-of-civil-engineering-tribhuvan-university/.
+Semester VIII: Design of Hydraulic Structures, Environmental Impact Assessment, Professional Practice and Ethics, Elective II, Project Work Part II. For a detailed syllabus, visit the official website, https://civil.pcampus.edu.np/index.php/academic-programs/b-e-in-civil-engineering/
 
 Application and Admission Process: Payment: Pay the application fee through Siddhartha Bank, Connect IPS, eSewa, or Khalti Wallet and obtain the bank voucher or Transaction ID Number. Registration: Visit the official IOE Entrance Examination website at https://entrance.ioe.edu.np, register, and upload necessary documents, including a passport-size photograph, signature, and academic transcripts. Confirmation: Save or print the confirmation page after submission for future reference.
 

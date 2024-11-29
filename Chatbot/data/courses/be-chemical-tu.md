@@ -5,6 +5,11 @@ The Bachelor of Engineering in Chemical Engineering program at Tribhuvan Univers
 Government/Public Colleges that offer Bachelor of Engineering in Chemical Engineering (Tribhuvan University):
 Pulchowk Campus, Lalitpur
 
+Private Colleges: None
+
+Fee structure:
+According to the latest notice, the fee for government institutions has been set at Rs 56,700 for regular students under the scholarship, Rs 490,000 for full-paying students, and Rs 1,313,500 for international students. For a more detailed breakdown of the fee structure, refer to the official booklet here: https://entrance.ioe.edu.np/notice/download?filename=BE_BArch%20Booklet%202081.pdf&contentType=pdf
+
 Job Prospects:
 Graduates of this program can pursue careers in:
 Engineering corporations, consulting firms, laboratories, universities and research institutes, aerospace firms, energy companies, chemical manufacturing industries, pharmaceuticals, and environmental agencies.

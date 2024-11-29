@@ -7,13 +7,15 @@ EDUSANJAL
 
 Colleges Offering the Program:
 Government/Public Colleges: Pulchowk Campus, Pulchowk, Lalitpur.
-EDUSANJAL
+
+Private Colleges: None
+
+Fee structure:
+According to the latest notice, the fee for government institutions has been set at Rs 56,700 for regular students under the scholarship, Rs 490,000 for full-paying students, and Rs 1,313,500 for international students. For a more detailed breakdown of the fee structure, refer to the official booklet here: https://entrance.ioe.edu.np/notice/download?filename=BE_BArch%20Booklet%202081.pdf&contentType=pdf
 
 Job Prospects: Graduates of the Bachelor in Aerospace Engineering program have diverse career opportunities in both public and private sectors. They can work as Aerospace Engineers, Maintenance Engineers, Materials Engineers, and Mechanical Engineers. Additionally, graduates may pursue further studies such as MEng, MRes, MPhil, or Ph.D. to specialize in specific areas of aerospace engineering.
-EDUSANJAL
 
 Eligibility: Candidates must have completed higher secondary education in the science stream, with major subjects including Mathematics, Physics, and Chemistry. Additionally, candidates must pass the entrance examination conducted by Tribhuvan University. Admission is based on merit, and shortlisted candidates are called for an interview before final selection.
-EDUSANJAL
 
 Curricular Structure:
 Semester I: Engineering Mathematics I, Engineering Physics, Basic Electrical Engineering, Applied Mechanics, Engineering Drawing I, Workshop Technology.
