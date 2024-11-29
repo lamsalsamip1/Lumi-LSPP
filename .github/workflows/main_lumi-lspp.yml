@@ -37,6 +37,10 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_48BDFB2345C24B83922ACB2B8E58C955 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_E3B8E303FDBF4F9E8FD6E00BF103E03A }}
 
+      - name: Set environment variables
+        run: |
+          echo "DB_HOST=${{ secrets.OPENAI_API_KEY}}" >> $GITHUB_ENV
+
       - name: Build chroma database
         run: |
           cd Chatbot
