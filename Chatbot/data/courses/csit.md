@@ -31,7 +31,10 @@ Entrance Examination:
 Application Process of CSIT:
 
 1. Students can fill the application form online via the IOST website, https://www.iost.tu.edu.np.The form will cost Rs-1950 and can be paid through digital wallets.
-   2.{to be filled}
+2. Download the admit card and give the entrance exam on your designated center.
+3. The results are published after around 3 days.
+4. After results are published, fill up the priority form mentioning your preferred colleges from the IOST website.
+5. Then, each college will publish its admission lists. Students can visit their respective colleges with the required documents and proceed with admission. If someone fails to meet the deadline, second and third admission lists are published and opporunity is given to other students.
 
 Curricular Structure of CSIT:
 Semester I: Introduction to Information Technology (IIT), C Programming, Digital Logic, Mathematics I, Physics
