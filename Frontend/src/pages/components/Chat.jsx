@@ -25,12 +25,12 @@ const Chat = () => {
               <div key={index} className="w-full flex flex-col">
 
                 <div className="m-2  flex justify-end">
-                  <li className="text-white text-center px-4 py-2 rounded-lg bg-primdark text-[20px] lg:text-[16px] w-fit">
+                  <li className="text-white text-right px-4 py-2 rounded-lg bg-primdark text-[20px] lg:text-[16px] w-fit ">
                     {messagePair.user}
                   </li>
                 </div>
                 <div className="m-2 flex justify-start">
-                  <li className="text-black text-center px-4 py-2 rounded-lg bg-white text-[20px] lg:text-[16px] w-fit">
+                  <li className="text-black text-left px-4 py-2 rounded-lg bg-white text-[20px] lg:text-[16px] w-fit">
                     {messagePair.bot}
                   </li>
                 </div>
