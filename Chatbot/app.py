@@ -1,7 +1,10 @@
 from flask import Flask, request, jsonify
 from newrag import get_model_response,clear_convo_history
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app, origins="https://proud-meadow-0ace66e00.4.azurestaticapps.net")
 
 @app.route('/chat', methods=['POST'])
 def chat():
