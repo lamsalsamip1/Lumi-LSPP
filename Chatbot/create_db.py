@@ -11,13 +11,13 @@ from langchain_openai import OpenAIEmbeddings
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/courses/"
 openai.api_key = os.getenv("OPENAI_API_KEY")
-print(os.getenv("OPENAI_API_KEY"))
+print("Key here:" + os.getenv("OPENAI_API_KEY"))
 # Initialize lists to hold documents
 pdf_documents = []
 md_documents = []
 
 def main():
-    generate_data_store()
+    generate_data_store() 
 
 
 def generate_data_store():
