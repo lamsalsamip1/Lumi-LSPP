@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://127.0.0.1:5000', // Your Flask backend URL
+        target: 'https://lumi-lspp-eehwhca8ahe5dchp.centralindia-01.azurewebsites.net/', // Your Flask backend URL
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''), // Removes the "/api" prefix before forwarding to Flask
       },
