@@ -1,5 +1,4 @@
 from metaquery import get_metadata_content
-from langchain_ollama.llms import OllamaLLM
 from langchain.chat_models import ChatOpenAI
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
