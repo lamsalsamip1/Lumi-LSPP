@@ -30,16 +30,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r Chatbot/requirements.txt
 
-      - name: Login to Azure
-        uses: azure/login@v2
-        with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_5FD26556C2D943AFB4478A5E14155FB6 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_48BDFB2345C24B83922ACB2B8E58C955 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_E3B8E303FDBF4F9E8FD6E00BF103E03A }}
-
       - name: Set environment variables
         run: |
-          echo "DB_HOST=${{ secrets.OPENAI_API_KEY}}" >> $GITHUB_ENV
+          echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY}}" >> $GITHUB_ENV
 
       - name: Build chroma database
         run: |
