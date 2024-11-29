@@ -67,7 +67,7 @@ METADATA_MAP = {
 
     "compmath.md":{"courses":["Computational Mathematics","Bachelor in Computational Mathematics","Computational","Mathematics","Bachelor of Science in Computational Mathematics"], "university": ["Kathmandu University", "KU"]},
 
-    "datascience.md":{"courses":["BSc Data Science","Bachelor in Data Science","Data Science","Data","Science","Bachelor of Science in Data Science","BSc Data","Bachelor in Data"], "university": ["Tribhuvan University", "TU"]},
+    "datascience.md":{"courses":["BSc Data Science","Bachelor in Data Science","Data Science","Data","Bachelor of Science in Data Science","BSc Data","Bachelor in Data"], "university": ["Tribhuvan University", "TU"]},
 
     "foodtech.md":{"courses":["BTech Food Technology","Bachelor in Food Technology","Food Technology","Food","Technology","Bachelor of Technology in Food Technology","BTech Food","Bachelor in Food","b tech food technology"], "university": ["Tribhuvan University", "TU"]},
 

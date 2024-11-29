@@ -9,11 +9,8 @@ import os
 
 
 CHROMA_PATH = "chroma"
-deployment_name="gpt-4o"
-openai.api_type="azure"
-openai.api_key = os.getenv("Azure_OpenAI_API_KEY")
-openai.api_base="https://openai-lumi.openai.azure.com/"
-openai.api_version="2024-10-01"
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 ## Initialize an empty list to store the conversation history
 conversation_history = []
@@ -24,7 +21,7 @@ def load_vector_store():
     return Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
 
 def query_vector_store(db, query_text):
-    results = db.similarity_search_with_relevance_scores(query_text, k=6)
+    results = db.similarity_search_with_relevance_scores(query_text, k=5)
     if len(results) == 0 or results[0][1] < 0.3:
         print(f"Unable to find matching results.")
         
