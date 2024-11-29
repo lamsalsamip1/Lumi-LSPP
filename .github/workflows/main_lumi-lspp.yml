@@ -16,25 +16,32 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Set up Python version
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
       - name: Create and start virtual environment
         run: |
           python -m venv venv
           source venv/bin/activate
-      
+
       - name: Install dependencies
         run: pip install -r Chatbot/requirements.txt
+
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_5FD26556C2D943AFB4478A5E14155FB6 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_48BDFB2345C24B83922ACB2B8E58C955 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_E3B8E303FDBF4F9E8FD6E00BF103E03A }}
 
       - name: Build chroma database
         run: |
           cd Chatbot
           python create_db.py
-        
+
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
       - name: Zip artifact for deployment
@@ -52,7 +59,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment:
-      name: 'Production'
+      name: "Production"
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
       id-token: write #This is required for requesting the JWT
@@ -66,7 +73,6 @@ jobs:
       - name: Unzip artifact for deployment
         run: unzip release.zip
 
-      
       - name: Login to Azure
         uses: azure/login@v2
         with:
@@ -74,10 +80,9 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_48BDFB2345C24B83922ACB2B8E58C955 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_E3B8E303FDBF4F9E8FD6E00BF103E03A }}
 
-      - name: 'Deploy to Azure Web App'
+      - name: "Deploy to Azure Web App"
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'lumi-lspp'
-          slot-name: 'Production'
-          
+          app-name: "lumi-lspp"
+          slot-name: "Production"
