@@ -5,6 +5,11 @@ The Bachelor of Engineering in Industrial Engineering program at Tribhuvan Unive
 Government/Public Colleges that offer Bachelor of Engineering in Industrial Engineering (Tribhuvan University):
 Thapathali Campus, Kathmandu
 
+Private colleges: None
+
+Fee structure:
+According to the latest notice, the fee for government institutions has been set at Rs 56,700 for regular students under the scholarship, Rs 490,000 for full-paying students, and Rs 1,313,500 for international students. For a more detailed breakdown of the fee structure, refer to the official booklet here: https://entrance.ioe.edu.np/notice/download?filename=BE_BArch%20Booklet%202081.pdf&contentType=pdf
+
 Job Prospects:
 Graduates of this program can pursue careers in:
 Manufacturing and Production Industries, Quality Control and Assurance, Supply Chain and Logistics Management, Operations Research and Management, Project Management, Consultancy Services, and Entrepreneurship and Business Development.

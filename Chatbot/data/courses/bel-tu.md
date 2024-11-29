@@ -3,7 +3,16 @@ Information on Bachelor of Electrical Engineering (TU)
 Program Overview: The Bachelor of Electrical Engineering program of Tribhuvan University is a four-year, eight-semester program. This program equips students with the knowledge and skills required to design, analyze, and manage electrical systems and components. The course emphasizes practical training in addition to theoretical knowledge, preparing graduates for careers in power systems, electronics, and renewable energy. Recent advancements in electrical engineering have created opportunities in sectors like telecommunications, high voltage engineering, and control systems.
 
 Colleges Offering the Program:
-Government/Public colleges: Pulchowk Campus, Pulchowk, Lalitpur; Purwanchal Campus, Dharan, Sunsari; and Pashchimanchal Campus, Lamachaur, Pokhara, Kaski.
+
+Government/Public colleges:
+
+1. Pulchowk Campus, Lalitpur
+2. Thapathali Campus, Kathmandu
+3. Pashchimanchal Campus, Pokhara
+4. Purwanchal Campus,Dharan
+
+According to the latest notice, the fee for government institutions has been set at Rs 56,700 for regular students under the scholarship, Rs 490,000 for full-paying students, and Rs 1,313,500 for international students. For a more detailed breakdown of the fee structure, refer to the official booklet here: https://entrance.ioe.edu.np/notice/download?filename=BE_BArch%20Booklet%202081.pdf&contentType=pdf
+
 Private colleges: Kathmandu Engineering College, National College of Engineering, Advanced College of Engineering and Management, and Khwopa College of Engineering.
 
 Job Prospects: Graduates of the Bachelor of Electrical Engineering program have diverse career opportunities. They can work in power generation and distribution, electronics manufacturing, renewable energy, telecommunications, and research and development. Specific roles include designing and maintaining power systems, developing electronic devices, implementing sustainable energy solutions, and working on communication networks.

@@ -7,11 +7,13 @@ curriculum is designed by closely following the courses practiced in accredited 
 
 Public/Government colleges offering CSIT:
 
-1. Amrit Science Campus- Lainchaur,Kathmandu,
-2. Patan Multiple Campus
+1. Amrit Science Campus- Lainchaur,Kathmandu - 144 seats
+2. Patan Multiple Campus, Lalitpur -144 seats
 3. Bhaktapur Multiple Campus
 4. Padmakanya Multiple Campus- Bagbazar, Kathmandu
 5. Siddhanath Science Campus
+
+Community college offering CSIT-> Madan Bhandari Memorial College - New Baneshwor, Kathmandu
 
 Private colleges offering BSc.CSIT course:
 St.Xavier's College, Deerwalk Institute of Technology, Prime College, Kathford College, Nepalaya college, and more.
@@ -46,3 +48,9 @@ Semester VI: Software Engineering, Compiler Design and Construction, E-Governanc
 Semester VII: Advanced Java Programming, Data Warehousing and Data Mining, Principles of Management, Project Work, Elective III
 Semestser VII: Advanced Database, Internship, Elective IV, Elective V
 For detailed syllabus, go to https://cdcsit.edu.np/wp-content/uploads/2023/03/B.Sc_.-CSIT-Syllabus-Grading-System-2079.pdf
+
+Scholarship
+Two students from each college get a 100% scholarship. IOST publishes the merit list for scholarship in its website.The scholarship covers one male student and one female student. Besides this, There is less chance to get a 100% scholarship for students due to the high competition in this program. Government college also doesn’t provide 100% scholarship but offers low fees around 3-4 lakhs only. Most private colleges offer scholarships on the basis of students’ grades in +2 and entrance examinations conducted by IOST. Also, Some colleges offer next semester scholarships for merit students of the previous semester. Certain number of seats in each campus are reserved for females and minorities, which can be seen in the following page: https://entrancepreparationhub.com/wp-content/uploads/2024/09/1725442517352-1024x1024.jpg
+
+Fee Structure:
+Fee structure of BSc.CSIT in government colleges is around 3 – 4 Lakhs. In the case of private colleges, the Fee structure starts from 6 Lakhs to 20 Lakhs.

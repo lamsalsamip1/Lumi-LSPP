@@ -8,6 +8,8 @@ Government/Public colleges that offer Bachelor of Electronics, Communication and
 3.Eastern Region Campus, Dharan, Sunsari
 4.Western Region Campus, Pokhara, Lamachaur, Kaski
 
+According to the latest notice, the fee for government institutions has been set at Rs 56,700 for regular students under the scholarship, Rs 490,000 for full-paying students, and Rs 1,313,500 for international students. For a more detailed breakdown of the fee structure, refer to the official booklet here: https://entrance.ioe.edu.np/notice/download?filename=BE_BArch%20Booklet%202081.pdf&contentType=pdf
+
 Other Private colleges that offer Bachelor of Electronics, Communication and Information Engineering course:
 
 1. Advanced College of Engineering and Management
