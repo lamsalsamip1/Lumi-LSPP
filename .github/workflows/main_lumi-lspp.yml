@@ -23,7 +23,7 @@ jobs:
           python-version: '3.10'
 
       - name: Switch to chatbot directory
-        run: cd chatbot
+        run: cd Chatbot
 
       - name: Create and start virtual environment
         run: |
