@@ -9,7 +9,7 @@ const useClearHistory = () => {
     const clearHistory = async () => {
         setLoadingc(true);
         try {
-            const res = await fetch(`/api/clear_history`, {
+            const res = await fetch(`https://lumi-lspp-eehwhca8ahe5dchp.centralindia-01.azurewebsites.net/clear_history`, {
                 method: "GET",  // Ensure this matches your Flask backend
                 headers: { "Content-Type": "application/json" },
             });
