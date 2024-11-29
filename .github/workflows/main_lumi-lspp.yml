@@ -31,7 +31,9 @@ jobs:
         run: pip install -r Chatbot/requirements.txt
 
       - name: Build chroma database
-        run: python Chatbot/create_db.py
+        run: |
+          cd Chatbot
+          python create_db.py
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
