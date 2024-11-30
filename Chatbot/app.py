@@ -4,7 +4,9 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
-CORS(app, origins="https://proud-meadow-0ace66e00.4.azurestaticapps.net")
+# CORS(app, origins="https://proud-meadow-0ace66e00.4.azurestaticapps.net")
+CORS(app, origins="*")
+
 
 @app.route('/chat', methods=['POST'])
 def chat():
