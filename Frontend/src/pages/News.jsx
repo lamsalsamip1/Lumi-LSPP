@@ -51,7 +51,7 @@ const News = () => {
                             >
                                 <div className="p-6">
                                     <div className="flex items-center mb-4">
-                                        <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full mr-3">
+                                        <span className="px-3 py-1 bg-teal text-white text-sm font-medium rounded-full mr-3">
                                             {news.category}
                                         </span>
                                         <span className="text-gray-500 text-sm">
@@ -72,7 +72,7 @@ const News = () => {
                                             href={news.url} 
                                             target="_blank" 
                                             rel="noopener noreferrer"
-                                            className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
+                                            className="inline-flex items-center text-teal hover:text-blue-800 font-medium"
                                         >
                                             Read More
                                             <svg 
