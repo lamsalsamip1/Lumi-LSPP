@@ -11,7 +11,8 @@ export default {
         primdark: "#007c8c",
         bg: "#f5f5f5",
         graytext: "#939393",
-        navbg: "#fafafa"
+        navbg: "#fafafa",
+        teal: "#00a3ae"
       },
     },
   },
