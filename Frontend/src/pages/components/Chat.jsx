@@ -56,19 +56,18 @@ const Chat = () => {
         </div>
       )}
       
-      {/* Check if there are chat messages */}
       {chatText.length > 0 && (
-        <div className="flex-grow overflow-y-auto max-h-[calc(100vh-80px)] px-2 sm:px-40 lg:px-64 xl:px-72 mt-[80px] mb-8">
+        <div className="flex-grow overflow-y-auto max-h-[calc(100vh-80px)] px-2 sm:px-40 lg:px-64 xl:px-72 md:mt-[80px] mt-[96px] mb-12">
           <ul>
             {chatText.map((messagePair, index) => (
               <div key={index} className="w-full flex flex-col">
                 <div className="m-2 flex justify-end">
-                  <li className="text-white text-right px-4 py-2 rounded-lg bg-primdark text-[20px] lg:text-[16px] w-fit">
+                  <li className="text-white text-right px-4 py-2 rounded-lg bg-primdark text-[16px] lg:text-[16px] w-fit">
                     {messagePair.user}
                   </li>
                 </div>
                 <div className="m-2 flex justify-start">
-                  <li className="text-black text-left px-4 py-2 rounded-lg bg-white text-[20px] lg:text-[16px] w-fit">
+                  <li className="text-black text-left px-4 py-2 rounded-lg bg-white text-[16px] lg:text-[16px] w-fit">
                     <ReactMarkdown
                       components={{
                         a: ({ href, children }) => (
