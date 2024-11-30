@@ -68,7 +68,7 @@ const Chat = () => {
       )}
       
       {chatText.length > 0 && (
-          <ul className=" md:pt-8 lg:pt-16">
+          <ul className=" md:pt-8 pt-16">
             {chatText.map((messagePair, index) => (
               <div key={index} className="w-full flex flex-col">
                 <div className="m-2 flex justify-end">
