@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 
 const useClearHistory = () => {
     const [loadingc, setLoadingc] = useState(false);
-    const { setChatText } = useChat();  // Access the setChatText function
+    const { setChatText, setLastContext } = useChat();  // Access the setChatText function
 
     const clearHistory = async () => {
         setLoadingc(true);
@@ -20,9 +20,8 @@ const useClearHistory = () => {
             //     throw new Error(data.error);
             // }
 
-            // Clear the chat history in the frontend
-            setChatText([]);  // This will empty the chat history
-
+            setChatText([]);  
+            setLastContext("");  
             toast.success("Conversation history cleared!");
         // } catch (error) {
         //     console.error("Error clearing history:", error); // Add error handling and logging
