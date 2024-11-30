@@ -26,7 +26,6 @@ const useSendMessage = () => {
             console.log(chatText)
             console.log(lastContext)
 
-
         } catch (error) {
             toast.error(error.message)
         } finally {
