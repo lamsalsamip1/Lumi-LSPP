@@ -31,19 +31,38 @@ Note: Fees exclude additional expenses such as hostel accommodation, transportat
 Scholarship Opportunities:
 Pulchowk Campus: Scholarships are available based on merit, primarily determined by performance in the IOE entrance examination.
 
-Application and Admission Process:
-» Candidates must apply through the IOE entrance examination portal.
-» Submit required documents, including academic transcripts, certificates, and a recent passport-sized photograph.
-» Pay the application fee as prescribed by IOE.
-» Successful candidates must complete admission procedures within the specified timeframe.
+Application Process at Institute of Engineering:
 
-Documents Required:
-» High school diploma or equivalent transcripts and certificates
-» Recent passport-sized photographs
-» Proof of application fee payment
+» Make a payment of NRs. 2,000/- through Sidhhartha Bank or through Connect IPS/eSewa/ Khalti Wallet and get bank voucher or Transaction ID Number For payment process, please refer https://entrance.ioe.edu.np
+» Visit the official website of the IOE Entrance Examination at https://entrance.ioe.edu.np
+» Click on the “Start Registration” button to initiate the application process.
+» Upload the required documents and information including a recent passport-size photograph, signature, and Class 12 mark sheet, as per the specified guidelines.
+» Carefully review and verify all the details provided in the application form to ensure accuracy.
+» Save or take a printout of the confirmation page of the submission of the Application Form for your records.
+» Keep the confirmation page safe for future reference and as proof of your successful submission of the application. Then attend the entrance exam at your given time slot.
+
+Documents Required: Bank voucher or transaction ID number as proof of payment. +2 transcript or equivalent. Passport-size photograph. Citizenship certificate or passport for foreign nationals. Scanned copy of the candidate’s signature.
 
 Selection Process:
-Admission is based on merit, determined by scores in the IOE entrance examination.
+
+The Entrance Examination Board of IOE will publish the list of the successful candidates in the entrance examination notice board and via the website whereas the Admission Committee of Constituent campuses will take care of admission procedure. Students will have to fill a priority form after the results have been published.
+
+Admission
+
+The successful candidate should pay required fee and complete the procedures within the time prescribed by the Admission Committee of the Campuses. Candidates failing to do so will lose the opportunity to get the admission. The following documents should be presented at the time of admission:
+Original and attested copies of transcripts of all academic records from SLC onwards to the latest approved degree.
+Original copies of migration and provisional certificates, if applicable.
+Original copy of Nepali citizenship certificate or passport for foreign students
+In case of discrepancy on verification of the original certificates, or in case of inclusion of the candidate's name in the admission list by mistake of any kind, admission of such a candidate will be cancelled even after his /her formal admission.
+
+Entrance Exam Modality:
+» Mode: Computer Based Test
+» Type of Questions: Multiple Choice Questions (MCQs)
+» Full Marks: 140
+» Number of Questions: 100
+» Duration: 2 hours.
+» Marking Scheme: 10% negative marking for each wrong answer
+For more information regarding the entrance please visit: https://entrance.ioe.edu.np/
 
 For more detailed information, visit:https://edusanjal.com/course/bachelor-chemical-engineering-tribhuvan-university/ , https://pcampus.edu.np/
 
