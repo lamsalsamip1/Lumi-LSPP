@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Chatbot from './pages/Chatbot'
 import News from './pages/News'
 import Navbar from './pages/components/Navbar'
+import Aboutus from './pages/Aboutus'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Chatbot />} />
         <Route path='/news' element={<News />} />
+        <Route path='/aboutus' element={<Aboutus />} />
+
       </Routes>
     </div>
   )
