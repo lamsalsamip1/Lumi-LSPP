@@ -22,6 +22,8 @@ const useSendMessage = () => {
                 throw new Error(data.error)
             }
             setChatText([...chatText,{ user: message, assistant: data.response }])
+            console.log("API returned context:", data.context);
+
             setLastContext(data.context)
             console.log(chatText)
             console.log(lastContext)
