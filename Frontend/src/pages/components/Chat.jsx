@@ -5,25 +5,36 @@ import { prompts } from '../../constants';
 import useSendMessage from "../../hooks/useSendBotMessage";
 import { useEffect, useRef } from 'react';
 
+
+
 const Chat = () => {
   const { chatText, setMessage } = useChat();
+  const { setPromptClick} = useChat();
   const { loading, sendMessage } = useSendMessage();
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
-    if (messagesEndRef.current) {
+    if (messagesEndRef.current && chatText.length > 0) {
       messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, [chatText]);
+  
+
 
   const handlePromptClick = async (prompt) => {
     setMessage(prompt);
+    setPromptClick(true);
     await sendMessage(prompt);
+    setPromptClick(false);
     setMessage("");
   };
 
   return (
-    <div className="w-screen h-screen flex flex-col pt-8">
+    <div className="w-screen h-screen flex flex-col">
+      <div
+    className="flex-grow overflow-y-auto max-h-[calc(100vh-80px)] px-2 sm:px-40 lg:px-64 xl:px-72 pt-[96px] mb-16"
+  >
+
       {chatText?.length === 0 && (
         <div className="flex flex-col items-center justify-between gap-8">
           <div className="flex flex-col justify-center items-center flex-grow">
@@ -47,7 +58,7 @@ const Chat = () => {
                   disabled={loading}
                   onClick={() => handlePromptClick(prompt.title)}
                   className="cursor-pointer flex justify-between items-center bg-white border border-gray-200 rounded-lg shadow-sm px-4 py-2 hover:bg-gray-100 transition-all"
-                >
+                  >
                   <span className="text-gray-800 font-medium text-sm">{prompt.title}</span>
                 </li>
               ))}
@@ -57,8 +68,7 @@ const Chat = () => {
       )}
       
       {chatText.length > 0 && (
-        <div className="flex-grow overflow-y-auto max-h-[calc(100vh-80px)] px-2 sm:px-40 lg:px-64 xl:px-72 md:mt-[80px] mt-[96px] mb-12">
-          <ul>
+          <ul className=" pt-8">
             {chatText.map((messagePair, index) => (
               <div key={index} className="w-full flex flex-col">
                 <div className="m-2 flex justify-end">
@@ -90,9 +100,9 @@ const Chat = () => {
             ))}
             <div ref={messagesEndRef} />
           </ul>
-        </div>
       )}
     </div>
+      </div>
   );
 };
 
