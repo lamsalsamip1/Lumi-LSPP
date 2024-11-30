@@ -21,7 +21,7 @@ const useSendMessage = () => {
             if(data.error){
                 throw new Error(data.error)
             }
-            setChatText([...chatText,{ user: message, bot: data.response }])
+            setChatText([...chatText,{ user: message, assistant: data.response }])
             setLastContext(data.context)
             console.log(chatText)
             console.log(lastContext)

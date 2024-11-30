@@ -5,7 +5,7 @@ import { create } from "zustand";
 const useChat = create((set) => ({
     chatText: [],
     setChatText: (newChatText) => set({ chatText: newChatText }),
-    lastContext:"hi",
+    lastContext:"",
     setLastContext:(newContext)=>set({last_context:newContext}),
     message:"",
     setMessage:(newMessage)=>set({message:newMessage}),
