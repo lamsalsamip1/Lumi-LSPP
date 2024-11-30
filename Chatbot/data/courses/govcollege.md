@@ -16,3 +16,16 @@ Padma Kanya Multiple Campus (popularly known as PK Campus) is situated in Bagbaz
 Patan Multiple Campus was established on 2011 B.S.(1954) before birth of Tribhuvan University. 'Patan Multiple College' in 1973 it is entered as constituent campus of Tribhuvan University in named Patan Multiple Campus.
 Patan Multiple Campus is one of the most popular constitutent campus of Tribhuvan University. It occupied about 27,296 sq m area. The campus is situated at Patan Dhoka, Lalitpur of Nepal which is also known as city of Newar community.Patan Multiple campus is a constituent campus of Tribhuvan University, it offers both Bachelors and Masters program in the faculties of Humanities and social sciences, Faculty of Management and Faculty of Science.
 This campus conducts several programs such as general science, environment science, masters, different ARTS faculty and Bs.CSIT. It offers a total of 25 programs which include Bachelor of Science, Bachelor in Business Studies, Bachelor of Arts, BSc Computer Science and Information Technology, Bachelor of Business Administration, Bachelor of Arts in Social Work, Bachelor of Computer Application, Bachelors in Information Technology, Bachelor of Arts in Home Science, Bachelor of Arts in Geography, Bachelor of Arts in Nepal Bhasa, Bachelor of Arts in Economics, Bachelor of Business Management, MSc Physics, Master of Business Studies, MA in Nepali, MA in Rural Development, MA in Population Studies, MA in Economics, MA in Sociology, MA in English, MSc Environmental Science, Master of Arts in Nepal Bhasa, Master of Information Technology, Master of Computer Application.
+
+Foreign university affiliated courses and colleges in Nepal:
+
+There are several colleges in Nepal offering foreign university affiliated courses. Most of them offer 3 years degree, but there have been recent additions like in King's College which offers 4 year degree.
+
+1. King's College, afiiliated to WestCliff University:
+   Offered programs: BS CS (Computer Science), BS IT (Information Technology)
+
+2. Islington College, affiliated to London Metropolitan University
+   Offered programs: Computing, Networking, Multimedia
+
+3. Herald College Kathmandu, affiliated to University of Wolverhampton
+   Offered programs: BIT, Cyber security

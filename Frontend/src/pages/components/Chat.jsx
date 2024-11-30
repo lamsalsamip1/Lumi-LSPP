@@ -92,7 +92,7 @@ const Chat = () => {
                         ),
                       }}
                     >
-                      {messagePair.bot}
+                      {messagePair.assistant}
                     </ReactMarkdown>
                   </li>
                 </div>

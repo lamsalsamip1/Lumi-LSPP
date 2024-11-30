@@ -49,35 +49,38 @@ Semester VII: RF and Microwave Engineering, Artificial Intelligence, Organizatio
 Semester VIII: Telecommunications, Engineering Professional Practice, Energy, Environment, and Society, Information Systems, Elective II, Elective III, Project (Part B)
 For detailed syllabus, go to https://doece.pcampus.edu.np/index.php/bex-becie/
 
-Application and Admission Process
+Application Process at Institute of Engineering:
+
 » Make a payment of NRs. 2,000/- through Sidhhartha Bank or through Connect IPS/eSewa/ Khalti Wallet and get bank voucher or Transaction ID Number For payment process, please refer https://entrance.ioe.edu.np
 » Visit the official website of the IOE Entrance Examination at https://entrance.ioe.edu.np
 » Click on the “Start Registration” button to initiate the application process.
 » Upload the required documents and information including a recent passport-size photograph, signature, and Class 12 mark sheet, as per the specified guidelines.
 » Carefully review and verify all the details provided in the application form to ensure accuracy.
 » Save or take a printout of the confirmation page of the submission of the Application Form for your records.
-» Keep the confirmation page safe for future reference and as proof of your successful submission of the application.
+» Keep the confirmation page safe for future reference and as proof of your successful submission of the application. Then attend the entrance exam at your given time slot.
 
-Documents Required
-» Bank Voucher or Transaction ID Number : Candidates must provide the bank voucher of Siddhartha Bank Limited or the last 6 digits of the transaction number (in case of Connect IPS/ eSewa/Khalti Wallet) as a proof of the payment of the entrance exam fee
+Documents Required: Bank voucher or transaction ID number as proof of payment. +2 transcript or equivalent. Passport-size photograph. Citizenship certificate or passport for foreign nationals. Scanned copy of the candidate’s signature.
 
-» +2 Transcript: Candidates need to submit their +2 transcripts or 12th-grade mark sheet as proof of their academic qualification.
+Selection Process:
 
-» Passport-size Photo: One 350 x 300 size (passport-size) color digital photograph with plain background
+The Entrance Examination Board of IOE will publish the list of the successful candidates in the entrance examination notice board and via the website whereas the Admission Committee of Constituent campuses will take care of admission procedure. Students will have to fill a priority form after the results have been published.
 
-» Citizenship Certificate OR Passport for foreigners: Nepalese candidates must provide their citizenship certificate, while foreign nationals should submit a valid passport.
-
-» Scanned Copy of the Candidate’s Signature: Candidates need to submit a scanned copy of their signature as part of the application process.
-
-Selection Process
-
-The Entrance Examination Board of IOE will publish the list of the successful candidates in the entrance examination notice board and via the website whereas the Admission Committee of Constituent campuses will take care of admission procedure.
+Admission
 
 The successful candidate should pay required fee and complete the procedures within the time prescribed by the Admission Committee of the Campuses. Candidates failing to do so will lose the opportunity to get the admission. The following documents should be presented at the time of admission:
 Original and attested copies of transcripts of all academic records from SLC onwards to the latest approved degree.
 Original copies of migration and provisional certificates, if applicable.
 Original copy of Nepali citizenship certificate or passport for foreign students
 In case of discrepancy on verification of the original certificates, or in case of inclusion of the candidate's name in the admission list by mistake of any kind, admission of such a candidate will be cancelled even after his /her formal admission.
+
+Entrance Exam Modality:
+» Mode: Computer Based Test
+» Type of Questions: Multiple Choice Questions (MCQs)
+» Full Marks: 140
+» Number of Questions: 100
+» Duration: 2 hours.
+» Marking Scheme: 10% negative marking for each wrong answer
+For more information regarding the entrance please visit: https://entrance.ioe.edu.np/
 
 UG Scholarships Provisions of TU Institute of Engineering:
 

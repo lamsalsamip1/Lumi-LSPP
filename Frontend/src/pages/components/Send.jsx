@@ -9,7 +9,7 @@ import Box from "@mui/material/Box";
 
 const Send = () => {
 	const { message, setMessage } = useChat();
-	const {promptClick } = useChat();
+	const { promptClick } = useChat();
 	const { loading, sendMessage } = useSendMessage();
 	const { clearHistory, loadingc } = useClearHistory();
 
@@ -23,9 +23,9 @@ const Send = () => {
 	const ClearChat = async (e) => {
 		e.preventDefault();
 		await clearHistory();
-		setMessage(""); 
+		setMessage("");
 		window.scrollTo({ top: 0, behavior: "smooth" });
-		
+
 	}
 
 	return (
@@ -47,7 +47,7 @@ const Send = () => {
 				<input
 					type='text'
 					className='border text-sm rounded-lg block p-5 lg:p-2.5  w-full bg-navbg border-primary text-black outline-blue-500 lg:pr-12 pr-12'
-					placeholder='Ask Lumi for the imformation you need'
+					placeholder='Ask Lumi for the information you need'
 					value={message}
 					onChange={(e) => setMessage(e.target.value)}
 				/>

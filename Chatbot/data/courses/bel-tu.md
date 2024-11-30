@@ -29,11 +29,38 @@ Semester VI: Communication Systems, Energy Studies, and Elective I.
 Semester VII: Project Work I, Renewable Energy Technology, and Elective II.
 Semester VIII: Project Work II, Advanced Control Systems, and Elective III. For a detailed syllabus, visit https://edusanjal.com/course/bachelor-of-electrical-engineering-tribhuvan-university.
 
-Application and Admission Process: Payment: Pay NRs. 2,000 through Siddhartha Bank, Connect IPS, eSewa, or Khalti Wallet and obtain the bank voucher or Transaction ID Number. Registration: Visit the official IOE Entrance Examination website at https://entrance.ioe.edu.np, register, and upload necessary documents, including a passport-size photograph, signature, and academic transcripts. Confirmation: Save or print the confirmation page after submission for future reference.
+Application Process at Institute of Engineering:
+
+» Make a payment of NRs. 2,000/- through Sidhhartha Bank or through Connect IPS/eSewa/ Khalti Wallet and get bank voucher or Transaction ID Number For payment process, please refer https://entrance.ioe.edu.np
+» Visit the official website of the IOE Entrance Examination at https://entrance.ioe.edu.np
+» Click on the “Start Registration” button to initiate the application process.
+» Upload the required documents and information including a recent passport-size photograph, signature, and Class 12 mark sheet, as per the specified guidelines.
+» Carefully review and verify all the details provided in the application form to ensure accuracy.
+» Save or take a printout of the confirmation page of the submission of the Application Form for your records.
+» Keep the confirmation page safe for future reference and as proof of your successful submission of the application. Then attend the entrance exam at your given time slot.
 
 Documents Required: Bank voucher or transaction ID number as proof of payment. +2 transcript or equivalent. Passport-size photograph. Citizenship certificate or passport for foreign nationals. Scanned copy of the candidate’s signature.
 
-Selection Process: The IOE Entrance Examination Board publishes the list of successful candidates on their notice board and website. Admission is handled by the Admission Committee of constituent campuses. Candidates must pay the required fees and complete admission procedures within the prescribed timeframe. Documents required at admission include original and attested copies of academic transcripts, migration and provisional certificates, and a citizenship certificate or passport. Discrepancies in original certificates or errors in the admission list may result in cancellation of admission, even after formal admission.
+Selection Process:
+
+The Entrance Examination Board of IOE will publish the list of the successful candidates in the entrance examination notice board and via the website whereas the Admission Committee of Constituent campuses will take care of admission procedure. Students will have to fill a priority form after the results have been published.
+
+Admission
+
+The successful candidate should pay required fee and complete the procedures within the time prescribed by the Admission Committee of the Campuses. Candidates failing to do so will lose the opportunity to get the admission. The following documents should be presented at the time of admission:
+Original and attested copies of transcripts of all academic records from SLC onwards to the latest approved degree.
+Original copies of migration and provisional certificates, if applicable.
+Original copy of Nepali citizenship certificate or passport for foreign students
+In case of discrepancy on verification of the original certificates, or in case of inclusion of the candidate's name in the admission list by mistake of any kind, admission of such a candidate will be cancelled even after his /her formal admission.
+
+Entrance Exam Modality:
+» Mode: Computer Based Test
+» Type of Questions: Multiple Choice Questions (MCQs)
+» Full Marks: 140
+» Number of Questions: 100
+» Duration: 2 hours.
+» Marking Scheme: 10% negative marking for each wrong answer
+For more information regarding the entrance please visit: https://entrance.ioe.edu.np/
 
 UG Scholarships Provisions of TU Institute of Engineering:
 

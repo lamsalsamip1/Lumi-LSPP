@@ -1,4 +1,5 @@
 Information on Bachelor of Science in Computer Science (BSCS) by King's College
+
 Course credits:120
 Duration:4 years
 Affiliated university: Westcliff University, United States
