@@ -16,10 +16,10 @@ const Navbar = () => {
                 <div className='flex gap-3'>
                     <Link to="/"
                         className='flex items-center gap-2'
-                        onClick={() => {
-                            window.location.reload();
-                        }
-                        }
+                    // onClick={() => {
+                    //     window.location.reload();
+                    // }
+                    // }
                     >
                         <img src={lumi} alt="logo" className='w-16 h-16 object-contain' />
 
@@ -33,7 +33,7 @@ const Navbar = () => {
                             <li
                                 key={link.id}
                                 className="text-graytext hover:text-black text-[18px] font-medium cursor-pointer"
-                                >
+                            >
                                 <a href={`${link.id}`}>{link.title}</a>
                             </li>
                         )

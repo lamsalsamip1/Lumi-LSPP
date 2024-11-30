@@ -63,7 +63,7 @@ export const newsItems = [
     description:
       "Tribhuvan University Faculty of Humanities and Social Sciences (TUFoHSS) has released the Bachelor of Computer Application (BCA) re-entrance examination results for the academic year 2081.",
     date: "November 20, 2024",
-    category: "Technology",
+    category: "University Notice",
     readTime: "5 min read",
   },
   {
@@ -76,12 +76,12 @@ export const newsItems = [
     readTime: "7 min read",
   },
   {
-    title: "Top 10 IT Colleges in Nepal: IT Courses, Fees, Scholarships",
-    url: "https://meroupdate.com/university/top-10-it-colleges-in-nepal/?utm_source=chatgpt.com",
+    title: "BSc.CSIT Entrance Result 2081 - IOST",
+    url: "https://iost.tu.edu.np/notices/4321",
     description:
-      "Discover Nepal’s top 10 IT colleges, featuring course offerings, fee structures, scholarship opportunities, and admission processes for aspiring IT professionals.",
+      "The Institue of Science and Technology has published the result of entrance examination of BSc.CSIT course 3 days after the exam was held.",
     date: "November 2, 2024",
-    category: "Education",
+    category: "University Notice",
     readTime: "5 min read",
   },
   {
@@ -90,7 +90,7 @@ export const newsItems = [
     description:
       "Tribhuvan University's Institute of Engineering has released the results for the BE/BArch entrance examinations for the year 2081. Read more to check your results.",
     date: "September 7, 2024",
-    category: "Technology",
+    category: "University Notice",
     readTime: "2 min read",
   },
 ];

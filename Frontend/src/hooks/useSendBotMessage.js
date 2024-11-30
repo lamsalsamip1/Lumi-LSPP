@@ -17,15 +17,18 @@ const useSendMessage = () => {
         })
       );
       // const res = await fetch(`https://lumi-lspp-eehwhca8ahe5dchp.centralindia-01.azurewebsites.net/chat`, {
-      const res = await fetch(`http://127.0.0.1:8000/chat`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          user_input: message,
-          last_context: lastContext,
-          conversation_history: chatText,
-        }),
-      });
+      const res = await fetch(
+        `https://lumi-lspp-eehwhca8ahe5dchp.centralindia-01.azurewebsites.net/chat`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            user_input: message,
+            last_context: lastContext,
+            conversation_history: chatText,
+          }),
+        }
+      );
 
       const data = await res.json();
       console.log(data);
