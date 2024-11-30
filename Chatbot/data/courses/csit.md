@@ -23,8 +23,8 @@ Job Prospects
 The B.Sc. CSIT graduates have a prosperous career opportunity at different government, non-government, private and public organizations, like software companies, telecommunications, computer networking companies etc. especially as a:
 Software Developer,Web Developer,Network Administrator,Database Administrator,IT Manager/Officer,Cryptographer,Ergonomics Program Designer,System Analyst,Project Manager,Document Specialist,Information System Auditor,Artificial Intelligence Specialist,Technical Writer,Information System Manager,Database Operator
 
-Admission Criteria
-A student eligible to study the B.Sc. CSIT course should collect and submit the admission form from any of the B.Sc. CSIT colleges. The admission form generally opens during Shrawan / Bhadra every year.
+Admission criteria:
+The candidate applying for BSc CSIT program must have: Successfully completed 10+2 or equivalent with Physics, Chemistry and Mathematics.. Secured a minimum grade C in each subject. Note: Regarding A Level, students should have secured minimum grade D in Physics, Chemistry and Mathematics.
 
 Entrance Examination:
 
@@ -32,7 +32,7 @@ Entrance Examination:
 
 Application Process of CSIT:
 
-1. Students can fill the application form online via the IOST website, https://www.iost.tu.edu.np.The form will cost Rs-1950 and can be paid through digital wallets.
+1. Students can fill the application form online via the IOST website, https://www.iost.tu.edu.np.The form will cost Rs-1950 and can be paid through digital wallets. Offline application has been discontinued.
 2. Download the admit card and give the entrance exam on your designated center.
 3. The results are published after around 3 days.
 4. After results are published, fill up the priority form mentioning your preferred colleges from the IOST website.
