@@ -1,6 +1,8 @@
 ## Lumi-LSPP
 
-# Steps to Run the Chatbot API
+Deployed App: https://proud-meadow-0ace66e00.4.azurestaticapps.net/
+
+# Steps to Run the Chatbot API Locally:
 
 Step 1: Clone the repository
 
