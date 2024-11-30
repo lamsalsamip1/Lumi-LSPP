@@ -24,7 +24,7 @@ const Chat = () => {
 
   return (
     <div className="w-screen h-screen flex flex-col pt-8">
-      {chatText.length === 0 && (
+      {chatText?.length === 0 && (
         <div className="flex flex-col items-center justify-between gap-8">
           <div className="flex flex-col justify-center items-center flex-grow">
             <img src={roboticon} className="w-16 sm:w-20 md:w-24" />
