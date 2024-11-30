@@ -111,8 +111,8 @@ def main():
         
 
 # Function for API:
-def get_model_response(user_input):
-    global last_context
+def get_model_response(user_input,conversation_history,last_context):
+
     context_text = get_metadata_content(user_input)
     if not context_text:
             # Use last context if available
@@ -130,16 +130,8 @@ def get_model_response(user_input):
     
     prompt = format_prompt(conversation_history, user_input, context_text)
     response=model.invoke(prompt)
-    conversation_history.append({"user": user_input, "assistant": response})
 
-    last_context = context_text
-
-    return response.content
-    
-def clear_convo_history():
-    global conversation_history,last_context
-    last_context = None  # Clear the context
-    conversation_history = []  # Clear the history
+    return response.content,context_text
 
 if __name__ == "__main__":
     main()
