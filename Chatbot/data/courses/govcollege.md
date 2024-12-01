@@ -29,3 +29,6 @@ There are several colleges in Nepal offering foreign university affiliated cours
 
 3. Herald College Kathmandu, affiliated to University of Wolverhampton
    Offered programs: BIT, Cyber security
+
+4. Softwarica College, affiliated to Coventry University
+   Offered programs: Computer Science, Computing, Ethical Hacking and Cybersecurity
