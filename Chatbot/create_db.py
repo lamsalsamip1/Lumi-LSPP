@@ -9,7 +9,7 @@ from pathlib import Path
 from langchain_openai import OpenAIEmbeddings
 import nltk
 
-nltk.download('punkt')
+nltk.data.path.append(os.path.join(os.path.dirname(__file__), 'nltk_data'))
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/courses/"
