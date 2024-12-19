@@ -1,4 +1,4 @@
-from langchain_community.document_loaders import UnstructuredMarkdownLoader
+from langchain_community.document_loaders import UnstructuredMarkdownLoader,DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_community.vectorstores import Chroma
@@ -37,6 +37,7 @@ def load_documents():
         if file_path.suffix == '.md':
             loader = UnstructuredMarkdownLoader(str(file_path))
             md_documents.extend(loader.load())
+            print(md_documents)
         # elif file_path.suffix == '.html':
 
     # Combine documents
