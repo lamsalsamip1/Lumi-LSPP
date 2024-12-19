@@ -7,6 +7,9 @@ import os
 import shutil
 from pathlib import Path
 from langchain_openai import OpenAIEmbeddings
+import nltk
+
+nltk.download('punkt')
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/courses/"
