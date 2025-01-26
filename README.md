@@ -1,5 +1,7 @@
 ## Lumi-LSPP
 
+This is a hybrid RAG based chatbot that answers queries on undergraduate level degrees and colleges in Nepal.
+
 Deployed App: https://proud-meadow-0ace66e00.4.azurestaticapps.net/
 
 # Steps to Run the Chatbot API Locally:
