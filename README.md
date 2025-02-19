@@ -21,3 +21,6 @@ Step 5: Add your Open AI API Key to your environment variable OPENAI_API_KEY
 
 Step 5: Run the flask app
 `python app.py`
+
+Screenshots:
+![image (8)](https://github.com/user-attachments/assets/764de051-74bd-4709-82ca-aef2651173d4)
